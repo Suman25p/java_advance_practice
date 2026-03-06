@@ -1,0 +1,40 @@
+package com.kodewala.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class UserMgmt 
+{
+    public static void main( String[] args )
+    {
+        //Register Driver
+    	try {
+			Class.forName("com.mysql.cj.jdbc.Driver"); //dynamic class loading
+			
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ 27th_oct_batch", "root", "SP25@hit");
+			
+			Statement stmt = con.createStatement();
+			String query = "Select * from user_info";
+			ResultSet rs = stmt.executeQuery(query); //will be stored in ResultSet
+			
+			while (rs.next()) {
+				int id = rs.getInt(1);
+				String userName = rs.getString(2);
+				String user_id = rs.getString(3);
+				String status = rs.getString(4);
+				
+				System.out.println("Id: " + id);
+				System.out.println("User Name: " + userName);
+				System.out.println("User ID: " + user_id) ;
+				System.out.println("Status: " + status);
+			}
+		} catch (Exception  e) {
+			
+			e.printStackTrace();
+		} 
+    	
+    }
+}

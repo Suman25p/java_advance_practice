@@ -1,0 +1,44 @@
+package com.org.kodewala;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class CalcMainTest {
+	
+	@Test
+	public void testAddNumber() {
+		CalcMain calMain = new CalcMain(); //+ve test case
+		int expected = 17; //you are expecting
+		int actual = calMain.addNumber(5,12); //method return
+		
+		assertEquals(expected,actual);
+	}
+
+	@Test
+	public void testAddNumberFirstZero() {
+		CalcMain calMain = new CalcMain(); //+ve test case
+		int expected = 33; //you are expecting
+		int actual = calMain.addNumber(0,33); //method return
+		
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	public void testAddNumberSecondZero() {
+		CalcMain calMain = new CalcMain(); //+ve test case
+		int expected = 33; //you are expecting
+		int actual = calMain.addNumber(33,0); //method return
+		
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	public void testAddNumberbothZero() {
+		CalcMain calMain = new CalcMain(); //+ve test case
+		int expected = 0; //you are expecting
+		int actual = calMain.addNumber(0,0); //method return
+		
+		assertEquals(expected,actual);
+	}
+}

@@ -1,0 +1,18 @@
+package com.org.kodewala;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+public class CalcMainTest {
+	
+	@Test
+	public void testAddNumber() {
+		CalcMain calMain = new CalcMain();
+		int expected = 17;
+		int actual = calMain.addNumber(5,12);
+		
+		assertEquals(expected,actual);
+	}
+
+}

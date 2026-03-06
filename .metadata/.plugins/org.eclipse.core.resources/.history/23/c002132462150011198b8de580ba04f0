@@ -1,0 +1,17 @@
+package com.kodewala.jdbc;
+
+public class UserMgmt 
+{
+    public static void main( String[] args )
+    {
+        //Register Driver
+    	try {
+			Class.forName(" "); //dynamic class loading
+		} catch (ClassNotFoundException e) {
+			
+			e.printStackTrace();
+		} 
+    	
+    	
+    }
+}

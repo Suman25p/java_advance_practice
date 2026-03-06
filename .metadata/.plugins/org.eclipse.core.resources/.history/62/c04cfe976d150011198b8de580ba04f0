@@ -1,0 +1,95 @@
+package com.kodewala.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class CrudOperation {
+	
+	public static void insertUser() {
+	try {
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ 27th_oct_batch", "root", "SP25@hit");
+				
+		
+		Statement stmt = con.createStatement();
+		
+		String query = "INSERT INTO user_info (user_name, user_id, status)"
+				+ " VALUES('Suman', 'U102', 'Active')";
+		
+		int rows = stmt.executeUpdate(query);
+		System.out.println(rows + " Record Inserted");
+		
+		con.close();
+	} catch(Exception e) {
+		e.printStackTrace();
+		}
+	}
+	
+	public static void getAllUser() {
+		try {
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ 27th_oct_batch", "root", "SP25@hit");
+			
+			Statement stmt = con.createStatement();
+			
+			String query = "SELECT * from user_info";
+			ResultSet rs = stmt.executeQuery(query);
+			
+			while(rs.next()) {
+				System.out.println("Id: " + rs.getInt("id"));
+				System.out.println("User Name: " + rs.getString("user_name"));
+				System.out.println("User ID: " + rs.getString("user_id"));
+				System.out.println("Status: " + rs.getString("status"));
+				System.out.println("-------------------------------");
+			}
+			con.close();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void updateUser() {
+		try {
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ 27th_oct_batch", "root", "SP25@hit");
+			
+			Statement stmt = con.createStatement();
+			
+			String query = "Update user_-info SET status = 'Inactive' "
+					+ "Where user_id = 'U102'";
+			
+			int rows = stmt.executeUpdate(query);
+			System.out.println(rows + " Record Updated");
+			con.close();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void deletedUser() {
+		try {
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ 27th_oct_batch", "root", "SP25@hit");
+			
+			Statement stmt = con.createStatement();
+			
+			String query = "DELETE FROM use_info WHERE user_id = 'U102'";
+			
+			int rows = stmt.executeUpdate(query);
+			System.out.println(rows + " Record Deleted");
+			
+			con.close();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+			insertUser();
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

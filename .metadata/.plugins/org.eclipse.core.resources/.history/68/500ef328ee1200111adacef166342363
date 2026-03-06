@@ -1,0 +1,16 @@
+package com.org.kodewala;
+/* * 
+ *  @author Suman
+ * 
+ * This class is responsible for calculation i.e addition etc
+ * 
+ */
+
+public class CalcMain 
+{
+	public int addNumber(int a, int b) //50 lines
+	{
+		return a+ b;
+	}
+    
+}
