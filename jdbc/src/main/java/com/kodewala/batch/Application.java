@@ -19,7 +19,7 @@ public class Application {
 			
 			String sql = "insert into user_info(user_name,user_id,status) values(?,?,?)";
 			
-			PreparedStatement ps =con.prepareStatement(sql); //will be stored in ResultSet
+			PreparedStatement ps =con.prepareStatement(sql); //will be stored in PreparedStatement
 			
 			int batchSize = 50;
 			for(int i=1; i< 100; i++) {

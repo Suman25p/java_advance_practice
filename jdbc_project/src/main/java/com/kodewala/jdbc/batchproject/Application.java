@@ -16,7 +16,7 @@ public class Application {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			//created connection
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ 27th_oct_batch", "root", "SP25@hit");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/27th_oct_batch", "root", "SP25@hit");
 			
 			String validSql = "INSERT INTO customer_info VALUES(?,?,?,?,?,?,?,?,?,?)";
 
