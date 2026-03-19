@@ -1904,3 +1904,789 @@
 2026-03-10 15:27:47,930 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\test\resources
 2026-03-10 15:48:00,385 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\main\resources
 2026-03-10 15:48:00,418 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\test\resources
+2026-03-10 19:58:43,015 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-03-10 19:59:37,561 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\main\resources
+2026-03-10 19:59:37,567 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\test\resources
+2026-03-10 20:52:36,616 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\main\resources
+2026-03-10 20:52:36,624 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\test\resources
+2026-03-10 21:48:22,819 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\main\resources
+2026-03-10 21:48:22,845 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc\src\test\resources
+2026-03-11 10:21:27,339 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-03-11 10:21:53,827 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\main\resources
+2026-03-11 10:21:53,835 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\test\resources
+2026-03-11 10:22:03,988 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\main\resources
+2026-03-11 10:22:03,995 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\test\resources
+2026-03-11 10:22:39,452 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\main\resources
+2026-03-11 10:22:39,457 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\test\resources
+2026-03-11 10:38:22,906 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\main\resources
+2026-03-11 10:38:22,946 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\test\resources
+2026-03-11 10:38:43,220 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\main\resources
+2026-03-11 10:38:43,252 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\test\resources
+2026-03-11 10:48:13,704 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\main\resources
+2026-03-11 10:48:13,715 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\test\resources
+2026-03-11 11:00:05,604 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\main\resources
+2026-03-11 11:00:05,614 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\jdbc_project\src\test\resources
+2026-03-12 11:45:50,607 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-03-12 11:46:19,502 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-12 11:46:19,502 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-12 11:46:21,760 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:46:21,769 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:46:22,644 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:46:22,680 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:46:24,657 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-12 11:46:47,858 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:46:47,896 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:50:44,979 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:50:44,986 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:52:11,195 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:52:11,202 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:54:57,953 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:54:58,056 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:56:00,914 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:56:00,923 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:56:36,058 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:56:36,063 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:59:04,467 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:59:04,472 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 11:59:39,448 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 11:59:39,455 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:06:50,793 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:06:50,801 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:07:22,682 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:07:22,688 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:10:52,520 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:10:52,606 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:11:30,593 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:11:30,605 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:13:57,205 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:13:57,219 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:20:11,137 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:20:11,171 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:27:41,768 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:27:41,795 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:27:54,550 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:27:54,554 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:33:51,038 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:33:51,113 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:35:21,558 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:35:21,564 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:36:04,749 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:36:04,773 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:36:24,886 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:36:24,895 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:36:28,047 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:36:28,051 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 12:36:57,399 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 12:36:57,407 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:02:24,238 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:02:24,307 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:06:32,040 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:06:32,077 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:08:52,697 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:08:52,701 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:13:09,112 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:13:09,119 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:15:51,624 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:15:51,631 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:18:05,877 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:18:05,881 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:20:15,968 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:20:15,973 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:22:28,600 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:22:28,606 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:23:15,109 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:23:15,114 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:24:01,450 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:24:01,456 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:34:46,611 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:34:46,617 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:34:55,884 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:34:55,888 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:35:46,423 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:35:46,510 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 13:59:27,348 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 13:59:27,376 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 14:02:16,496 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 14:02:16,503 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 14:03:50,794 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 14:03:50,803 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 14:10:26,136 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 14:10:26,190 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 14:10:45,980 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 14:10:45,991 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 14:28:47,684 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 14:28:47,859 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 14:28:53,665 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 14:28:53,669 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 14:34:52,715 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 14:34:52,720 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 15:44:57,124 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 15:44:57,241 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 15:47:46,554 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 15:47:46,558 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 15:49:01,441 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 15:49:01,447 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 15:51:46,771 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 15:51:46,787 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 15:56:26,214 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 15:56:26,263 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:19:22,070 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:19:22,094 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:21:03,207 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:21:03,211 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:21:22,778 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:21:22,782 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:24:04,255 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:24:04,260 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:27:14,304 [Worker-34: Launching EcommerceMainDriver] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:27:14,309 [Worker-34: Launching EcommerceMainDriver] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:37:02,624 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:37:02,694 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:38:01,965 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:38:01,973 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:39:05,453 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:39:05,459 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:39:55,555 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:39:55,561 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:54:49,238 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:54:49,348 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 16:59:59,254 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 16:59:59,380 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:00:59,537 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:00:59,923 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:03:33,386 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:03:33,392 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:14:59,712 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:14:59,826 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:26:48,684 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:26:48,789 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:27:32,295 [Worker-35: Launching EcommerceMainDriver] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:27:32,309 [Worker-35: Launching EcommerceMainDriver] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:33:13,403 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:33:13,437 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:33:32,747 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:33:32,757 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:34:25,940 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:34:25,947 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:47:22,968 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:47:23,211 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:52:49,246 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:52:49,296 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:53:26,688 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:53:26,822 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 17:57:02,066 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 17:57:02,149 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:01:19,627 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:01:19,633 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:07:17,724 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:07:17,730 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:07:35,604 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:07:35,608 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:10:51,312 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:10:51,324 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:12:04,741 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:12:04,751 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:13:33,874 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:13:33,877 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:18:08,255 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:18:08,300 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:24:15,234 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:24:15,238 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:24:56,887 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:24:56,890 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:26:28,668 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:26:28,671 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:34:58,591 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:34:58,628 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:38:25,158 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:38:25,166 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:47:40,371 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:47:40,409 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:47:42,772 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:47:42,775 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:53:24,026 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:53:24,033 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:53:26,573 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:53:26,577 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:53:52,213 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:53:52,216 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:54:13,894 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:54:13,897 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 18:58:52,616 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 18:58:52,651 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 19:03:49,458 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 19:03:49,480 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 19:04:21,421 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 19:04:21,433 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 19:08:44,101 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 19:08:44,105 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 19:09:59,505 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 19:09:59,508 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 19:10:14,455 [Worker-39: Launching EcommerceMainDriver] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 19:10:14,460 [Worker-39: Launching EcommerceMainDriver] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-12 19:11:10,371 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-12 19:11:10,373 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 07:36:27,906 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-03-13 07:46:12,948 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 07:46:13,039 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 07:47:25,881 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 07:47:25,916 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 07:54:24,580 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 07:54:24,588 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 07:54:42,020 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 07:54:42,027 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:00:28,699 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:00:28,709 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:04:03,613 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:04:03,622 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:08:37,325 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:08:37,332 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:09:00,625 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:09:00,630 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:12:15,316 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:12:15,320 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:22:21,515 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:22:21,542 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:22:58,236 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:22:58,243 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:28:32,987 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:28:33,001 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:33:44,953 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:33:44,958 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:40:10,192 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:40:10,198 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:43:32,443 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:43:32,448 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:47:29,403 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:47:29,408 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:47:35,852 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:47:35,858 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:52:32,779 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:52:32,785 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 08:54:47,174 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 08:54:47,181 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:00:41,588 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:00:41,593 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:00:47,702 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:00:47,706 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:07:55,530 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:07:55,534 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:10:32,069 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:10:32,077 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:12:51,458 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:12:51,462 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:14:02,965 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:14:02,970 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:20:05,853 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:20:05,856 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:20:27,036 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:20:27,045 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:20:52,465 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:20:52,469 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:22:31,667 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:22:31,671 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:31:09,018 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:31:09,023 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:31:20,510 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:31:20,514 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:38:02,912 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:38:02,929 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:39:31,479 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:39:31,485 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:42:00,944 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:42:00,950 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:48:39,108 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:48:39,121 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:49:30,399 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:49:30,404 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:50:15,391 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:50:15,414 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:51:23,421 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:51:23,428 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:55:42,664 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:55:42,669 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:56:25,147 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:56:25,152 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 09:57:05,457 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 09:57:05,462 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 10:00:57,183 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 10:00:57,191 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 10:03:43,668 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 10:03:43,673 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 10:05:53,816 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 10:05:53,829 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 10:07:39,786 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 10:07:39,795 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 10:08:30,035 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 10:08:30,039 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 10:49:25,088 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-03-13 10:51:32,642 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 10:51:32,680 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 10:52:12,458 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 10:52:12,463 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:01:23,204 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:01:23,241 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:05:51,546 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:05:51,551 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:06:33,551 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:06:33,556 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:35:38,657 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:35:38,667 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:44:30,730 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:44:30,767 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:45:11,153 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:45:11,160 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:45:29,258 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:45:29,268 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:45:45,911 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:45:45,917 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:46:29,444 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:46:29,448 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:46:58,647 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:46:58,656 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:47:00,653 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:47:00,659 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:47:13,714 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:47:13,720 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:51:06,344 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:51:06,349 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:51:34,161 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:51:34,166 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:54:06,410 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:54:06,486 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:54:12,494 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:54:12,500 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:54:55,511 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:54:55,517 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:56:46,898 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-13 11:56:49,286 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.pom
+2026-03-13 11:56:49,397 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.pom
+2026-03-13 11:56:49,542 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2026-03-13 11:56:49,631 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2026-03-13 11:56:49,806 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2026-03-13 11:56:49,918 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2026-03-13 11:56:50,030 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar
+2026-03-13 11:56:50,207 [Worker-36: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar
+2026-03-13 11:56:50,238 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2026-03-13 11:56:51,566 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2026-03-13 11:56:52,984 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:56:53,001 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 11:56:53,534 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1-sources.jar
+2026-03-13 11:56:53,908 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1-sources.jar
+2026-03-13 11:56:53,937 [Worker-32: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.13.1
+2026-03-13 11:56:54,041 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2026-03-13 11:56:57,751 [Worker-32: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2026-03-13 11:56:58,283 [Worker-32: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2026-03-13 11:57:01,427 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 11:57:01,432 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:00:36,365 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-13 12:00:36,979 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.pom
+2026-03-13 12:00:37,070 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.pom
+2026-03-13 12:00:37,132 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.pom
+2026-03-13 12:00:37,322 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.pom
+2026-03-13 12:00:37,396 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.6/byte-buddy-parent-1.14.6.pom
+2026-03-13 12:00:37,470 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.6/byte-buddy-parent-1.14.6.pom
+2026-03-13 12:00:37,585 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.pom
+2026-03-13 12:00:37,657 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.pom
+2026-03-13 12:00:37,962 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.pom
+2026-03-13 12:00:37,985 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.pom
+2026-03-13 12:00:38,041 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.pom
+2026-03-13 12:00:38,059 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.pom
+2026-03-13 12:00:38,103 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+2026-03-13 12:00:38,119 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+2026-03-13 12:00:38,168 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom
+2026-03-13 12:00:38,188 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.pom
+2026-03-13 12:00:38,276 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.pom
+2026-03-13 12:00:38,304 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.pom
+2026-03-13 12:00:38,348 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.pom
+2026-03-13 12:00:38,366 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.pom
+2026-03-13 12:00:38,450 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.pom
+2026-03-13 12:00:38,495 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.pom
+2026-03-13 12:00:38,590 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.jar
+2026-03-13 12:00:38,850 [Worker-34: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.jar
+2026-03-13 12:00:38,889 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.jar
+2026-03-13 12:00:39,062 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar
+2026-03-13 12:00:39,105 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar
+2026-03-13 12:00:39,107 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+2026-03-13 12:00:39,126 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+2026-03-13 12:00:39,157 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.jar
+2026-03-13 12:00:39,180 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar
+2026-03-13 12:00:39,224 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar
+2026-03-13 12:00:39,224 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar
+2026-03-13 12:00:39,327 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar
+2026-03-13 12:00:39,347 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar
+2026-03-13 12:00:39,373 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar
+2026-03-13 12:00:39,380 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.jar
+2026-03-13 12:00:39,430 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar
+2026-03-13 12:00:39,515 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.jar
+2026-03-13 12:00:39,573 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar
+2026-03-13 12:00:39,573 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar
+2026-03-13 12:00:39,587 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar
+2026-03-13 12:00:41,088 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0-sources.jar
+2026-03-13 12:00:41,278 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0-sources.jar
+2026-03-13 12:00:41,287 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-core:5.5.0
+2026-03-13 12:00:41,373 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6-sources.jar
+2026-03-13 12:00:41,945 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6-sources.jar
+2026-03-13 12:00:41,953 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.14.6
+2026-03-13 12:00:42,099 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6-sources.jar
+2026-03-13 12:00:42,299 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:00:42,311 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:00:42,320 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6-sources.jar
+2026-03-13 12:00:42,328 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.14.6
+2026-03-13 12:00:42,456 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3-sources.jar
+2026-03-13 12:00:42,581 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3-sources.jar
+2026-03-13 12:00:42,590 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter:5.9.3
+2026-03-13 12:00:42,714 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3-sources.jar
+2026-03-13 12:00:43,125 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3-sources.jar
+2026-03-13 12:00:43,137 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.9.3
+2026-03-13 12:00:43,249 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2026-03-13 12:00:43,740 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2026-03-13 12:00:43,749 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.2.0
+2026-03-13 12:00:43,872 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3-sources.jar
+2026-03-13 12:00:44,019 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3-sources.jar
+2026-03-13 12:00:44,098 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.9.3
+2026-03-13 12:00:44,232 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3-sources.jar
+2026-03-13 12:00:44,365 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3-sources.jar
+2026-03-13 12:00:44,374 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-params:5.9.3
+2026-03-13 12:00:44,490 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3-sources.jar
+2026-03-13 12:00:44,623 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3-sources.jar
+2026-03-13 12:00:44,641 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.9.3
+2026-03-13 12:00:44,874 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3-sources.jar
+2026-03-13 12:00:45,005 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3-sources.jar
+2026-03-13 12:00:45,015 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.9.3
+2026-03-13 12:00:54,812 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:00:54,839 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:01:47,204 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:01:47,266 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:02:42,513 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:02:42,543 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:02:52,481 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating OrderServiceTest from maven configuration
+2026-03-13 12:03:00,972 [Worker-39: Launching OrderServiceTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar
+2026-03-13 12:03:01,191 [Worker-39: Launching OrderServiceTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar
+2026-03-13 12:04:24,144 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:04:24,156 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:05:53,888 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating Amazon from maven configuration
+2026-03-13 12:07:30,484 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:07:30,490 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:12:56,237 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:12:56,307 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:17:18,343 [Worker-41: Launching OrderServiceTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:17:18,347 [Worker-41: Launching OrderServiceTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:37:52,177 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:37:53,074 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:41:28,494 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:41:28,505 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:52:14,179 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:52:14,262 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:53:17,733 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:53:17,758 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:54:57,910 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:54:57,921 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-13 12:55:05,089 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-13 12:55:05,104 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:43:43,007 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-03-16 22:49:11,750 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:49:11,910 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:49:33,696 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:49:33,705 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:52:17,580 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-16 22:52:18,204 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.pom
+2026-03-16 22:52:18,289 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.pom
+2026-03-16 22:52:18,333 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.23.1/log4j-2.23.1.pom
+2026-03-16 22:52:18,395 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.23.1/log4j-2.23.1.pom
+2026-03-16 22:52:18,487 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.23.1/log4j-bom-2.23.1.pom
+2026-03-16 22:52:18,565 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.23.1/log4j-bom-2.23.1.pom
+2026-03-16 22:52:18,715 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom
+2026-03-16 22:52:18,974 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom
+2026-03-16 22:52:19,080 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.21/groovy-bom-3.0.21.pom
+2026-03-16 22:52:19,134 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.21/groovy-bom-3.0.21.pom
+2026-03-16 22:52:19,369 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.54.v20240208/jetty-bom-9.4.54.v20240208.pom
+2026-03-16 22:52:19,450 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.54.v20240208/jetty-bom-9.4.54.v20240208.pom
+2026-03-16 22:52:19,648 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom
+2026-03-16 22:52:19,710 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom
+2026-03-16 22:52:19,805 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom
+2026-03-16 22:52:19,861 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom
+2026-03-16 22:52:20,423 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.32/spring-framework-bom-5.3.32.pom
+2026-03-16 22:52:20,557 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.32/spring-framework-bom-5.3.32.pom
+2026-03-16 22:52:20,625 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.pom
+2026-03-16 22:52:20,695 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.pom
+2026-03-16 22:52:20,872 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar
+2026-03-16 22:52:21,309 [Worker-16: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar
+2026-03-16 22:52:21,341 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar
+2026-03-16 22:52:22,433 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar
+2026-03-16 22:52:24,554 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:52:24,560 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:52:25,197 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1-sources.jar
+2026-03-16 22:52:25,688 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1-sources.jar
+2026-03-16 22:52:25,789 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-api:2.23.1
+2026-03-16 22:52:25,982 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1-sources.jar
+2026-03-16 22:52:28,638 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1-sources.jar
+2026-03-16 22:52:28,858 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-core:2.23.1
+2026-03-16 22:52:31,243 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:52:31,252 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:55:11,369 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-16 22:55:11,932 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier  to /Calculator/target/classes
+2026-03-16 22:55:12,447 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:55:12,456 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:55:16,599 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:55:16,604 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:57:35,122 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:57:35,254 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:58:41,823 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-16 22:58:42,499 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.pom
+2026-03-16 22:58:42,593 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.pom
+2026-03-16 22:58:42,655 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.9/slf4j-parent-2.0.9.pom
+2026-03-16 22:58:42,713 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.9/slf4j-parent-2.0.9.pom
+2026-03-16 22:58:42,794 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.9/slf4j-bom-2.0.9.pom
+2026-03-16 22:58:42,822 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.9/slf4j-bom-2.0.9.pom
+2026-03-16 22:58:43,103 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier  to /Calculator/target/classes
+2026-03-16 22:58:43,129 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier  to /Calculator/target/classes
+2026-03-16 22:58:43,171 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar
+2026-03-16 22:58:43,259 [Worker-15: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar
+2026-03-16 22:58:43,671 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:58:43,680 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:58:44,492 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9-sources.jar
+2026-03-16 22:58:44,659 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9-sources.jar
+2026-03-16 22:58:44,668 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:2.0.9
+2026-03-16 22:58:46,599 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:58:46,603 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 22:58:47,813 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 22:58:47,820 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:02:06,247 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:02:06,297 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:02:35,737 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:02:35,741 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:03:00,784 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:03:00,806 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:03:39,789 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:03:39,798 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:04:39,732 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:04:39,736 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:05:32,871 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:05:32,877 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:06:15,488 [Worker-19: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:06:15,508 [Worker-19: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:06:15,533 [Worker-19: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:08:08,297 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:08:08,477 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:10:44,065 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:10:44,097 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:13:26,632 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:13:26,672 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:16:17,354 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:16:17,400 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:17:46,355 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:17:46,359 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:19:02,282 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:19:02,302 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:19:50,499 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:19:50,507 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:22:24,020 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:22:24,028 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:23:42,389 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:23:42,397 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:26:26,186 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:26:26,201 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:26:48,450 [Worker-23: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:26:48,510 [Worker-23: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:26:48,550 [Worker-23: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:32:45,093 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-16 23:32:45,101 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-16 23:33:35,967 [Worker-19: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:33:35,991 [Worker-19: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:33:36,011 [Worker-19: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:37:07,788 [Worker-24: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:37:07,853 [Worker-24: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:37:07,874 [Worker-24: Launching EcommerceMainDriver] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier null to /Calculator/target/classes
+2026-03-16 23:39:51,944 [Worker-22: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\t</dependencies>... @83:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\t</dependencies>... @83:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2026-03-16 23:39:53,824 [Worker-22: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\t</dependencies>... @83:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\t</dependencies>... @83:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2026-03-17 11:28:02,135 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-17 11:28:12,772 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 11:28:12,778 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 11:28:16,521 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 11:28:16,526 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 11:29:09,274 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-17 11:29:09,582 [Worker-33: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Calculator: com.org.kodewala:Calculator:0.0.1-SNAPSHOT with classifier  to /Calculator/target/classes
+2026-03-17 11:29:10,272 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 11:29:10,281 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 11:29:13,074 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 11:29:13,077 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 12:35:28,059 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Amazon:Amazon:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Amazon\pom.xml.
+2026-03-17 12:35:32,341 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 12:35:32,376 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 12:35:43,243 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 12:35:43,246 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 12:40:41,117 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 12:40:41,121 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 12:41:06,315 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 12:41:06,319 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 12:41:28,169 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 12:41:28,172 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 12:42:05,789 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 12:42:05,794 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-17 12:45:17,479 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\main\resources
+2026-03-17 12:45:17,484 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Amazon\src\test\resources
+2026-03-18 12:21:16,703 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-03-18 12:22:10,077 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013 [640])
+2026-03-18 12:22:10,089 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013
+2026-03-18 12:22:10,090 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\aopalliance-1.0.jar
+2026-03-18 12:22:10,090 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\guice-5.1.0.jar
+2026-03-18 12:22:10,091 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpclient-4.5.14.jar
+2026-03-18 12:22:10,091 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpcore-4.4.16.jar
+2026-03-18 12:22:10,110 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jansi-2.4.1.jar
+2026-03-18 12:22:10,111 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jcl-over-slf4j-1.7.36.jar
+2026-03-18 12:22:10,111 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-artifact-3.9.9.jar
+2026-03-18 12:22:10,111 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-builder-support-3.9.9.jar
+2026-03-18 12:22:10,111 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-compat-3.9.9.jar
+2026-03-18 12:22:10,112 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-core-3.9.9.jar
+2026-03-18 12:22:10,112 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-embedder-3.9.9.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-3.9.9.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-builder-3.9.9.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-plugin-api-3.9.9.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-repository-metadata-3.9.9.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-api-1.9.22.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-connector-basic-1.9.22.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-impl-1.9.22.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-named-locks-1.9.22.jar
+2026-03-18 12:22:10,113 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-provider-3.9.9.jar
+2026-03-18 12:22:10,114 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-spi-1.9.22.jar
+2026-03-18 12:22:10,114 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-file-1.9.22.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-http-1.9.22.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-wagon-1.9.22.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-util-1.9.22.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-3.9.9.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-builder-3.9.9.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-shared-utils-3.4.2.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-0.0.7.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-1.2.0.jar
+2026-03-18 12:22:10,115 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-cipher-2.0.jar
+2026-03-18 12:22:10,116 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-classworlds-2.8.0.jar
+2026-03-18 12:22:10,116 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-component-annotations-2.1.0.jar
+2026-03-18 12:22:10,116 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-interpolation-1.27.jar
+2026-03-18 12:22:10,116 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-sec-dispatcher-2.0.jar
+2026-03-18 12:22:10,116 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-utils-3.5.1.jar
+2026-03-18 12:22:10,117 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-xml-3.0.1.jar
+2026-03-18 12:22:10,117 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-file-3.5.3.jar
+2026-03-18 12:22:10,117 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-3.5.3.jar
+2026-03-18 12:22:10,117 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-shared-3.5.3.jar
+2026-03-18 12:22:10,117 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-provider-api-3.5.3.jar
+2026-03-18 12:22:10,121 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.4.8.jre [18])
+2026-03-18 12:22:10,122 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\com.google.guava_33.4.8.jre.jar
+2026-03-18 12:22:10,122 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.17 [1006])
+2026-03-18 12:22:10,135 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\slf4j.api_2.0.17.jar
+2026-03-18 12:22:10,136 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [35])
+2026-03-18 12:22:10,137 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2026-03-18 12:22:10,137 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [45])
+2026-03-18 12:22:10,138 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2026-03-18 12:22:10,138 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [76])
+2026-03-18 12:22:10,139 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.9.0.jar
+2026-03-18 12:22:10,139 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [78])
+2026-03-18 12:22:10,139 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2026-03-18 12:22:10,139 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.3 [19])
+2026-03-18 12:22:10,141 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\ecilpseIDE\eclipse-jee-2025-06-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.3.jar
+2026-03-18 12:22:10,154 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Home\AppData\Local\Temp\m2e-archetypeGenerator302749594370561862":
+2026-03-18 12:22:10,204 [Worker-0: Launching mavenrun-5107b042-946a-4753-86f4-80d377602e40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.0 -DgroupId=com.kodewala -DartifactId=Test -Dversion=0.0.1-SNAPSHOT -Dpackage=com.kodewala -DoutputDirectory=F:\kodewalaAdvance -Dstyle.color=always -U archetype:generate
+2026-03-18 12:22:44,549 [Worker-5: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' F:\kodewalaAdvance\Test\pom.xml
+2026-03-18 12:22:50,413 [Worker-5: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kodewala:Test:0.0.1-SNAPSHOT @ F:\kodewalaAdvance\Test\pom.xml.
+2026-03-18 12:22:58,351 [Worker-5: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Test/src/main/java
+2026-03-18 12:22:58,356 [Worker-5: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Test/src/main/resources
+2026-03-18 12:22:58,358 [Worker-5: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Test/src/test/java
+2026-03-18 12:22:58,360 [Worker-5: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Test/src/test/resources
+2026-03-18 12:23:02,955 [Worker-5: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 18 sec
+2026-03-18 12:23:05,018 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-03-18 12:23:05,117 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-18 12:23:05,125 [Worker-7: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-03-18 12:23:05,127 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Test\src\test\resources
+2026-03-18 12:35:14,073 [Worker-19: Building Project Test] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-03-18 12:35:14,119 [Worker-19: Building Project Test] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-18 12:35:14,130 [Worker-19: Building Project Test] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-03-18 12:35:14,131 [Worker-19: Building Project Test] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Test\src\test\resources
+2026-03-18 12:45:58,040 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-03-18 12:45:58,075 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-18 12:45:58,080 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2026-03-18 12:45:58,084 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\kodewalaAdvance\Test\src\test\resources
+2026-03-18 12:48:35,260 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

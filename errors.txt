@@ -1,0 +1,47 @@
+1) Page size should be 15(done).......
+2) In viewcart We have to add also product id-------------------------------
+3) When I click viewCart when it is asking userId should be removed (done)------------------------------------
+4) 6 Place Order -> same asking userId so we have to remove from it also ----------------------------
+5) Order placed successfully!--------------------------
+Your Order ID: 3
+Power Bank 5 1308
+Power Bank 10 9971
+Power Bank 6 6646
+here total order value should be calculated and price
+6)Order placed successfully!(done)....................
+Your Order ID: 3
+Power Bank 5 1308
+Power Bank 10 9971
+Power Bank 6 6646
+here we have to merge user and placedorder items
+
+
+7)  When we are giving our choice any string then it is showing it should be handled
+ Enter option: gfftrt----------------------------------------
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at controller.EcommerceMainDriver.main(EcommerceMainDriver.java:38)
+
+
+8)  When we are giving our choice any string then it is showing it should be handled
+ Enter option: gfftrt after logged in --------------------------------------------
+Enter choice: rftgyhhgfrthygt
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at controller.EcommerceMainDriver.main(EcommerceMainDriver.java:106)
+9) after view all products first option user can go directly add product to cart********************
+
+
+10) in viewCart -. if products are not there it will show empty cart please add the product-------------------------
+
+11) valid user after regiestration new user if he try to login with his credentials it is showing invalid credentials------------------------------------
+
+12) in viewCart we have to show items according to loggin user.---------------------------------------------------
+
+13) in Search case 2, when we are searching anything which is not in db should show no such element found...handle all cases.

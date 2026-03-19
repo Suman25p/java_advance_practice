@@ -24,7 +24,7 @@ public class FundTransfer {
 		
 		String balanceQuery = "select amount from balance where user_id=?";
 		
-		ps = con .prepareStatement(balanceQuery);
+		ps = con.prepareStatement(balanceQuery);
 		
 		ps.setString(1, from);
 		

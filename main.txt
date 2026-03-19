@@ -1,0 +1,252 @@
+package controller;
+
+import java.util.Scanner;
+
+import service.CartService;
+import service.OrderService;
+import service.ProductService;
+import service.UserService;
+import util.CSVProductLoader;
+
+public class EcommerceMainDriver {
+
+    public static void main(String[] args) throws Exception {
+
+        Scanner sc = new Scanner(System.in);
+
+        ProductService productService = new ProductService();
+        CartService cartService = new CartService();
+        OrderService orderService = new OrderService();
+        UserService userService = new UserService();
+        
+        CSVProductLoader csvProductLoader = new CSVProductLoader();
+        csvProductLoader.loadProducts();
+        
+        int loggedInUser = -1;
+        int loggedInUser1 = userService.loginUser(loginEmail, loginPassword);
+        String loginEmail="";
+        String loginPassword="";
+        
+        // ===== LOGIN / REGISTER MENU =====
+
+        while (loggedInUser1 == -1) {
+
+            System.out.println("\n===== WELCOME TO ECOMMERCE APP =====");
+            System.out.println("1 Register");
+            System.out.println("2 Login");
+            System.out.println("3 Exit");
+            
+            System.out.print("Enter option: ");
+
+            int option = sc.nextInt();
+
+            switch (option) {
+            case 1:
+
+                sc.nextLine();
+
+                System.out.print("Enter Name: ");
+                String name = sc.nextLine();
+
+                System.out.print("Enter Email: ");
+                String email = sc.nextLine();
+
+                System.out.print("Enter Phone: ");
+                String phone = sc.nextLine();
+
+                System.out.print("Enter Password: ");
+                String password = sc.nextLine();
+
+                userService.registerUser(name, email, phone, password);
+                
+                break;
+
+            case 2:
+
+                sc.nextLine();
+
+                System.out.print("Enter Email: ");
+                loginEmail = sc.nextLine();
+                System.out.print("Enter Password: ");
+                loginPassword = sc.nextLine();
+
+                loggedInUser1 = userService.loginUser(loginEmail, loginPassword);
+
+                if (loggedInUser1 == -1) {
+                    System.out.println("Invalid Credentials");
+                } else {
+                    System.out.println("Login Successful. UserID = " + loggedInUser1);
+                }
+
+                break;
+                
+            case 3:
+
+                System.out.println("Thank you for visiting Ecommerce App 👋");
+                return;
+
+            default:
+
+                System.out.println("⚠ Invalid choice. Please select 1, 2, or 3.");
+            }
+        }
+
+        // ===== MAIN MENU =====
+        while (true) {
+
+            System.out.println("\n========= ECOMMERCE MENU =========");
+            System.out.println("1 View All Products");
+            System.out.println("2 Search Product");
+            System.out.println("3 Add Product To Cart");
+            System.out.println("4 View Cart");
+            System.out.println("5 Remove Product From Cart");
+            System.out.println("6 Place Order");
+            System.out.println("7 View Order History");
+            System.out.println("8 Exit");
+
+            System.out.print("Enter choice: ");
+
+            int choice = sc.nextInt();
+
+            switch (choice) {
+
+            case 1:
+
+                int page = 1;
+                int size = 15; // products per page
+
+                while (true) {
+
+                    productService.viewProducts(page, size);
+
+                    System.out.println("\n1 Next Page");
+                    System.out.println("2 Previous Page");
+                    System.out.println("3 Exit");
+
+                    System.out.print("Choose option: ");
+                    int option = sc.nextInt();
+
+                    if (option == 1) {
+
+                        page++;
+
+                    } else if (option == 2) {
+
+                        if (page > 1) {
+                            page--;
+                        } else {
+                            System.out.println("Already at first page.");
+                        }
+
+                    } else if (option == 3) {
+
+                        break;
+
+                    } else {
+
+                        System.out.println("Invalid option");
+                    }
+                }
+
+                break;
+            case 2:
+
+                sc.nextLine();
+                System.out.print("Enter product name: ");
+                String name = sc.nextLine();
+
+                productService.searchProduct(name);
+                break;
+
+            case 3:
+
+                System.out.print("Enter Product ID: ");
+                int productId = sc.nextInt();
+
+                System.out.print("Enter Quantity: ");
+                int quantity = sc.nextInt();
+
+                cartService.addProductToCart(loggedInUser1, productId, quantity);
+                break;
+
+            case 4:
+
+                cartService.viewItemsCurrentlyInCart(loginEmail,loginPassword);
+                
+                break;
+
+            case 5:
+
+                System.out.print("Enter Product ID to remove from cart: ");
+                int productId1 = sc.nextInt();
+
+                System.out.print("Enter quantity to remove: ");
+                int removeQty = sc.nextInt();
+
+                cartService.removeProductFromCart(loggedInUser1, productId1, removeQty);
+
+                break;
+            case 6:
+
+                System.out.print("Enter User ID: ");
+                int orderUser = sc.nextInt();
+
+                orderService.placeOrder(orderUser);
+                break;
+
+
+            case 7:
+
+                int page1 = 1;
+                int size1 = 5; // orders per page
+
+                while (true) {
+
+                    orderService.viewPreviousOrdersOfCustomers(loggedInUser1, page1, size1);
+
+                    System.out.println("\n1 Next Page");
+                    System.out.println("2 Previous Page");
+                    System.out.println("3 Exit");
+
+                    System.out.print("Choose option: ");
+                    int option1 = sc.nextInt();
+
+                    if (option1 == 1) {
+
+                        page1++;
+
+                    } else if (option1 == 2) {
+
+                        if (page1 > 1) {
+                            page1--;
+                        } else {
+                            System.out.println("Already at first page.");
+                        }
+
+                    } else if (option1 == 3) {
+
+                        break;
+
+                    } else {
+
+                        System.out.println("Invalid option");
+                    }
+                }
+
+                break;
+                
+            case 8:
+
+                System.out.println("Thank you for using Ecommerce System");
+                return;
+
+            default:
+
+                System.out.println("Invalid choice");
+
+            }
+        }
+    }
+}
+
+user table user_id,user_name, table orders order_id  

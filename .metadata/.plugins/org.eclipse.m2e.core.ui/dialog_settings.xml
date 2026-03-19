@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\kodewalaAdvance\Test"/>
+			<item value="F:\kodewalaAdvance\Amazon\src\main\java\controller\EcommerceMainDriver.java"/>
+			<item value="F:\kodewalaAdvance\Amazon"/>
 			<item value="F:\kodewalaAdvance\jdbc\src\main\java\com\kodewala\preparestatement\Application.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,19 +29,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.kodewala.jdbc.batchproject"/>
-			<item value="com.kodewala.jdbc"/>
-			<item value="com.org.kodewala"/>
 		</list>
 		<list key="groupId">
-			<item value="com.kodewala.jdbc.batchproject"/>
-			<item value="com.kodewala.jdbc"/>
-			<item value="com.org.kodewala"/>
 		</list>
 		<list key="artifactId">
-			<item value="jdbc_project"/>
-			<item value="jdbc"/>
-			<item value="Calculator"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
