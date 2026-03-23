@@ -29,10 +29,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.kodewala"/>
 		</list>
 		<list key="groupId">
+			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring-beancreation-xml-type"/>
+			<item value="Spring-Bean-creation-xml-type"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
