@@ -35,6 +35,8 @@ F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2046292
 \rapido-signup\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\904392214.index
 \path-variable\src\main\java
+F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2143937132.index
+\Spring-Bean-Java-type\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286065478.index
 \18th_August_2025_Offline\amazon-order\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591368824.index

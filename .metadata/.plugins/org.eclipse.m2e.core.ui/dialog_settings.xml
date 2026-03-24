@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\kodewalaAdvance\spring-beancreation-xml-type\src\main\resources\applicationContext.xml"/>
 			<item value="F:\kodewalaAdvance\Test"/>
 			<item value="F:\kodewalaAdvance\Amazon\src\main\java\controller\EcommerceMainDriver.java"/>
 			<item value="F:\kodewalaAdvance\Amazon"/>
@@ -29,12 +30,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.kodewala.practice"/>
 			<item value="com.kodewala"/>
 		</list>
 		<list key="groupId">
+			<item value="com.kodewala.practice"/>
 			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring-Bean-Creation-Java-Type2"/>
+			<item value="Spring-Bean-Creation-Java-Type"/>
 			<item value="spring-beancreation-xml-type"/>
 			<item value="Spring-Bean-creation-xml-type"/>
 		</list>

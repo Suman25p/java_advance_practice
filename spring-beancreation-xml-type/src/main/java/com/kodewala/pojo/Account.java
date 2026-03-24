@@ -4,13 +4,13 @@ public class Account {
 	
 	private String firstName;
 	private String lastName;
-	private double accountNumber;
+	private int accountNumber;
 	private double amount;
 	
-	public double getAccountNumber() {
+	public int getAccountNumber() {
 		return accountNumber;
 	}
-	public void setAccountNumber(double accountNumber) {
+	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
 	}
 	public double getAmount() {

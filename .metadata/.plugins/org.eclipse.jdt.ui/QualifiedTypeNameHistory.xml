@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="entity.Product"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="com.kodewala.pojo.Account"/>
+    <fullyQualifiedTypeName name="com.kodewala.AccountInfo"/>
 </qualifiedTypeNameHistroy>
