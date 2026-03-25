@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\kodewalaAdvance\Spring-Bean-Creation-JavaType\src\main\webapp\index.jsp"/>
+			<item value="F:\kodewalaAdvance\Spring-Bean-Xml-type2\src\main\resources\applicationContext.xml"/>
+			<item value="F:\kodewalaAdvance\Spring-Bean-Creation-JavaType\src\main\java\com\kodewala\app\Application.java"/>
 			<item value="F:\kodewalaAdvance\spring-beancreation-xml-type\src\main\resources\applicationContext.xml"/>
 			<item value="F:\kodewalaAdvance\Test"/>
 			<item value="F:\kodewalaAdvance\Amazon\src\main\java\controller\EcommerceMainDriver.java"/>
@@ -30,14 +33,27 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.kodewala.class.practice"/>
+			<item value="com.kodewala.class"/>
+			<item value="com.kodewala.practice.day2"/>
+			<item value="com.kodewala.practice.day"/>
 			<item value="com.kodewala.practice"/>
 			<item value="com.kodewala"/>
 		</list>
 		<list key="groupId">
+			<item value="com.kodewala.class.practice"/>
+			<item value="com.kodewala.class"/>
+			<item value="com.kodewala.practice.day2"/>
+			<item value="com.kodewala.practice.day"/>
 			<item value="com.kodewala.practice"/>
 			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring-Bean_Annotation-Type"/>
+			<item value="Spring-Bean-Annotation-Type"/>
+			<item value="Spring-Bean-Xml-type2"/>
+			<item value="Spring-Bean-Creation-JavaType"/>
+			<item value="Spring-Bean-Java-type"/>
 			<item value="Spring-Bean-Creation-Java-Type2"/>
 			<item value="Spring-Bean-Creation-Java-Type"/>
 			<item value="spring-beancreation-xml-type"/>

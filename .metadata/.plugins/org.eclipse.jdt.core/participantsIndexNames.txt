@@ -3,6 +3,8 @@ F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2702232
 \18th_August_2025_Offline\amazon-order\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1706139234.index
 \18th_August_2025_Offline\amazon-order\src\main\java
+F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1496086631.index
+\Spring-Bean-Creation-Java-Type\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4104347003.index
 \18th_August_2025_Offline\amazon-order\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\740020615.index
@@ -15,6 +17,8 @@ F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1540631
 \18th_August_2025_Offline\amazon-order\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3920412662.index
 \18th_August_2025_Offline\amazon-order\src\main\java
+F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\154485628.index
+\Spring-Bean-Creation-JavaType\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1324504082.index
 \18th_August_2025_Offline\amazon-order\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2080128388.index
@@ -37,6 +41,8 @@ F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\9043922
 \path-variable\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2143937132.index
 \Spring-Bean-Java-type\src\main\resources
+F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\44118594.index
+\Spring-Bean-Xml-type2\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286065478.index
 \18th_August_2025_Offline\amazon-order\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591368824.index
