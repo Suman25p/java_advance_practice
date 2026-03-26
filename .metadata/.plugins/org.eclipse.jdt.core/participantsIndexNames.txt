@@ -21,6 +21,8 @@ F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1544856
 \Spring-Bean-Creation-JavaType\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1324504082.index
 \18th_August_2025_Offline\amazon-order\src\main\java
+F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1436992433.index
+\Spring-Constructor-Dependency-Injection\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2080128388.index
 \rapido-booking\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2881108403.index
@@ -45,6 +47,8 @@ F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4411859
 \Spring-Bean-Xml-type2\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286065478.index
 \18th_August_2025_Offline\amazon-order\src\main\java
+F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2267847037.index
+\Spring-Dependency-Injection\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591368824.index
 \Test\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1844158321.index

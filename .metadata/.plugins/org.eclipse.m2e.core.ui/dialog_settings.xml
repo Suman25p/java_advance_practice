@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\kodewalaAdvance\Spring-Setter-Dependency-Injection\src\main\java\com\kodewala\bean\Employee.java"/>
+			<item value="F:\kodewalaAdvance\Spring-Constructor-Dependency-Injection"/>
+			<item value="F:\kodewalaAdvance\Spring-Bean-Creation-JavaType\src\main\java\com\kodewala\config\SpringConfig.java"/>
 			<item value="F:\kodewalaAdvance\Spring-Bean-Creation-JavaType\src\main\webapp\index.jsp"/>
 			<item value="F:\kodewalaAdvance\Spring-Bean-Xml-type2\src\main\resources\applicationContext.xml"/>
 			<item value="F:\kodewalaAdvance\Spring-Bean-Creation-JavaType\src\main\java\com\kodewala\app\Application.java"/>
@@ -33,22 +36,25 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.kodewala"/>
 			<item value="com.kodewala.class.practice"/>
 			<item value="com.kodewala.class"/>
 			<item value="com.kodewala.practice.day2"/>
 			<item value="com.kodewala.practice.day"/>
 			<item value="com.kodewala.practice"/>
-			<item value="com.kodewala"/>
 		</list>
 		<list key="groupId">
+			<item value="com.kodewala"/>
 			<item value="com.kodewala.class.practice"/>
 			<item value="com.kodewala.class"/>
 			<item value="com.kodewala.practice.day2"/>
 			<item value="com.kodewala.practice.day"/>
 			<item value="com.kodewala.practice"/>
-			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring-Filed-Dependency-Injection"/>
+			<item value="Spring-Setter-Dependency-Injection"/>
+			<item value="Spring-Dependency-Injection"/>
 			<item value="Spring-Bean_Annotation-Type"/>
 			<item value="Spring-Bean-Annotation-Type"/>
 			<item value="Spring-Bean-Xml-type2"/>
