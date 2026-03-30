@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\kodewalaAdvance\Spring-Constructor-Dependency-Injection\src\main\java\com\kodewala\bean\Employee2.java"/>
 			<item value="F:\kodewalaAdvance\Spring-Setter-Dependency-Injection\src\main\java\com\kodewala\bean\Employee.java"/>
 			<item value="F:\kodewalaAdvance\Spring-Constructor-Dependency-Injection"/>
 			<item value="F:\kodewalaAdvance\Spring-Bean-Creation-JavaType\src\main\java\com\kodewala\config\SpringConfig.java"/>
@@ -52,6 +53,8 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring-Bean-Scope"/>
+			<item value="Spring-Qualifier-Primary"/>
 			<item value="Spring-Filed-Dependency-Injection"/>
 			<item value="Spring-Setter-Dependency-Injection"/>
 			<item value="Spring-Dependency-Injection"/>

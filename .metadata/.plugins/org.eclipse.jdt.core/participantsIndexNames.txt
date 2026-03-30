@@ -35,6 +35,8 @@ F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1224097
 \rapido-booking\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1394929301.index
 \amazon-user-profile\src\main\java
+F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2178500534.index
+\Spring-Qualifier-Primary\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4000789988.index
 \rapido-signup\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2046292955.index
@@ -51,6 +53,8 @@ F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2267847
 \Spring-Dependency-Injection\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591368824.index
 \Test\src\main\resources
+F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\722616816.index
+\Spring-Bean-Scope\src\main\resources
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1844158321.index
 \amazon-user-profile\src\main\java
 F:\kodewalaAdvance\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1605807441.index
