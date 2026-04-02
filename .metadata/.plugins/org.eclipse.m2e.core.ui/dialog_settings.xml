@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\kodewalaAdvance\Spring-Web-MVC-Sample\pom.xml"/>
 			<item value="F:\kodewalaAdvance\Spring-Bean-Scope\src\main\java\com\kodewala\app\bean\AccountMgmt.java"/>
 			<item value="F:\kodewalaAdvance\Spring-Constructor-Dependency-Injection\src\main\java\com\kodewala\bean\Employee2.java"/>
 			<item value="F:\kodewalaAdvance\Spring-Setter-Dependency-Injection\src\main\java\com\kodewala\bean\Employee.java"/>
@@ -54,6 +55,7 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="RapidoLogin"/>
 			<item value="Spring-Bean-Scope-Example"/>
 			<item value="Spring-Web-MVC-Sample"/>
 			<item value="Spring-Bean-Scope"/>
@@ -68,7 +70,6 @@
 			<item value="Spring-Bean-Java-type"/>
 			<item value="Spring-Bean-Creation-Java-Type2"/>
 			<item value="Spring-Bean-Creation-Java-Type"/>
-			<item value="spring-beancreation-xml-type"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
