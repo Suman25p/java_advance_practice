@@ -1,5 +1,7 @@
 package com.blinket.product.service.impl;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -8,12 +10,14 @@ import com.blinket.product.request.ProductRequest;
 import com.blinket.product.request.ProductResponse;
 import com.blinket.product.service.IProductService;
 
+//All the business logic
 @Service
 public class ProductServiceImpl implements IProductService {
 
 	@Autowired
 	ProductRepository productRepository;
 
+	@Transactional
 	@Override
 	public ProductResponse createProduct(ProductRequest productRequest) {
 
