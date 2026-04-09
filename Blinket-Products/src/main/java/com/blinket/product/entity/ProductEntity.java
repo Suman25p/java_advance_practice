@@ -9,17 +9,32 @@ import javax.persistence.Table;
 @Table(name = "product_info")
 public class ProductEntity {
 
-	@Id
-	private String productId;
-	@Column
-	private String name;
+    @Id
+    private String productId;
 
-	public ProductEntity() {
-	}
+    @Column(name = "productName")
+    private String productName;
 
-	public ProductEntity(String productId, String name) {
-		this.productId = productId;
-		this.name = name;
-	}
+    public ProductEntity() {}
 
+    public ProductEntity(String productId, String productName) {
+        this.productId = productId;
+        this.productName = productName;
+    }
+
+    public String getProductId() {
+        return productId;
+    }
+
+    public void setProductId(String productId) {
+        this.productId = productId;
+    }
+
+    public String getproductName() {
+        return productName;
+    }
+
+    public void setproductName(String productName) {
+        this.productName = productName;
+    }
 }

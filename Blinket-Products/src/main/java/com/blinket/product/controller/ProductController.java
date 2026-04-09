@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.blinket.product.request.ProductRequest;
-import com.blinket.product.request.ProductResponse;
+import com.blinket.product.response.ProductResponse;
 import com.blinket.product.service.IProductService;
 
 @Controller

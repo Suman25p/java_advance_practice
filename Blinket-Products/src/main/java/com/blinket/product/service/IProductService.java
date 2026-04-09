@@ -1,7 +1,8 @@
 package com.blinket.product.service;
 
 import com.blinket.product.request.ProductRequest;
-import com.blinket.product.request.ProductResponse;
+import com.blinket.product.response.ProductResponse;
+
 
 public interface IProductService {
 

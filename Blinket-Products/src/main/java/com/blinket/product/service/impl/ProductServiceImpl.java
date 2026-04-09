@@ -7,8 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.blinket.product.repository.ProductRepository;
 import com.blinket.product.request.ProductRequest;
-import com.blinket.product.request.ProductResponse;
+import com.blinket.product.response.ProductResponse;
 import com.blinket.product.service.IProductService;
+
+
 
 //All the business logic
 @Service
@@ -17,10 +19,8 @@ public class ProductServiceImpl implements IProductService {
 	@Autowired
 	ProductRepository productRepository;
 
-	@Transactional
 	@Override
 	public ProductResponse createProduct(ProductRequest productRequest) {
-
 		String productName = productRequest.getProductName();
 		String qty = productRequest.getQty();
 
