@@ -1,16 +1,17 @@
 package com.zepto.product.request;
 
 public class ProductRequest {
-	private String name;
+	private String productName;
 	private String qty;
 	private String description;
 	private String price;
 	private String soldby;
-	public String getName() {
-		return name;
+	
+	public String getProductName() {
+		return productName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setProductName(String productName) {
+		this.productName = productName;
 	}
 	public String getQty() {
 		return qty;
