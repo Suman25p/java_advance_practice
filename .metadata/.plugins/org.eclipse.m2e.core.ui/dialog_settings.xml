@@ -40,6 +40,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.swish"/>
+			<item value="com.suman.productreseller"/>
+			<item value="com.zeptoo"/>
 			<item value="com.blinket"/>
 			<item value="com.zepto"/>
 			<item value="com.kodewala"/>
@@ -51,6 +54,9 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="groupId">
+			<item value="com.swish"/>
+			<item value="com.suman.productreseller"/>
+			<item value="com.zeptoo"/>
 			<item value="com.blinket"/>
 			<item value="com.zepto"/>
 			<item value="com.kodewala"/>
@@ -62,6 +68,9 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="Swish-Products"/>
+			<item value="ProductResellerApp"/>
+			<item value="Zepto-Product-CRUDRepo"/>
 			<item value="Blinket-Products"/>
 			<item value="Zepto-Products"/>
 			<item value="ServletLearning"/>
@@ -74,9 +83,6 @@
 			<item value="Spring-Filed-Dependency-Injection"/>
 			<item value="Spring-Setter-Dependency-Injection"/>
 			<item value="Spring-Dependency-Injection"/>
-			<item value="Spring-Bean_Annotation-Type"/>
-			<item value="Spring-Bean-Annotation-Type"/>
-			<item value="Spring-Bean-Xml-type2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -112,5 +118,18 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Home\Desktop\admin"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

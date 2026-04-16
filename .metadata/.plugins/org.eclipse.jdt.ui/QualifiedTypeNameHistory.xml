@@ -12,4 +12,11 @@
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="com.zepto.product.entity.ProductEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="com.zeptoo.product.service.IProductService"/>
+    <fullyQualifiedTypeName name="com.zeptoo.product.request.ProductRequest"/>
+    <fullyQualifiedTypeName name="com.zeptoo.product.entity.ProductEntity"/>
+    <fullyQualifiedTypeName name="com.zeptoo.product.request.ProductResponse"/>
+    <fullyQualifiedTypeName name="com.zeptoo.product.repository.ProductRepository"/>
 </qualifiedTypeNameHistroy>

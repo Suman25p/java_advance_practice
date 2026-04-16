@@ -86,7 +86,7 @@
         <input type="text" name="price">
 
         <label>Sold By</label>
-        <input type="text" name="soldBy">
+        <input type="text" name="soldby">
 
         <input type="submit" value="Upload Product">
 
