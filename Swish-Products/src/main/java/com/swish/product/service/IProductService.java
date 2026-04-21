@@ -8,5 +8,7 @@ public interface IProductService {
 	public ProductResponse createProduct(ProductRequest productRequest);
 
 	public String checkProductStatus(int productId);
+	
+	public ProductResponse findProducts(String name, String status);
 
 }

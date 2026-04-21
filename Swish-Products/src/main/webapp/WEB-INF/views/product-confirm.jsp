@@ -91,6 +91,16 @@
 			<input type="submit" value="Check Status">
 		</form>
 	</div>
+	
+	<div class="container">
 
+		<form action="findProducts">
+			<h3>Find Products</h3>
+			<input type="text" name="name" placeholder="Enter Name"> <input
+				type="text" name="status" placeholder="Enter Status"> <br>
+			<input type="submit" value="Find Product">
+		</form>
+	</div>
+	
 </body>
 </html>
