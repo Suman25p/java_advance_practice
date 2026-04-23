@@ -1,0 +1,51 @@
+package com.practice.product.request;
+
+public class ProductRequest {
+	
+	private String productName;
+	private String qty;
+	private String description;
+	private String price;
+	private String soldBy;
+	private String priceType;
+	
+	public String getProductName() {
+		return productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+	public String getQty() {
+		return qty;
+	}
+	public void setQty(String qty) {
+		this.qty = qty;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public String getSoldBy() {
+		return soldBy;
+	}
+	public void setSoldBy(String soldBy) {
+		this.soldBy = soldBy;
+	}
+	public String getPriceType() {
+		return priceType;
+	}
+	public void setPriceType(String priceType) {
+		this.priceType = priceType;
+	}
+	
+	
+	
+}

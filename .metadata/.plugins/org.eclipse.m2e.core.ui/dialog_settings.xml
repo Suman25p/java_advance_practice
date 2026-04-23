@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\kodewalaAdvance"/>
 			<item value="F:\kodewalaAdvance\AmazonResellerOnboarding\src\main\java\com\amazon\controller\SellerOnboardingController.java"/>
 			<item value="F:\kodewalaAdvance\Spring-Web-MVC-Sample\pom.xml"/>
 			<item value="F:\kodewalaAdvance\Spring-Bean-Scope\src\main\java\com\kodewala\app\bean\AccountMgmt.java"/>
@@ -16,7 +17,6 @@
 			<item value="F:\kodewalaAdvance\Test"/>
 			<item value="F:\kodewalaAdvance\Amazon\src\main\java\controller\EcommerceMainDriver.java"/>
 			<item value="F:\kodewalaAdvance\Amazon"/>
-			<item value="F:\kodewalaAdvance\jdbc\src\main\java\com\kodewala\preparestatement\Application.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -40,6 +40,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.productreview"/>
+			<item value="com.practice"/>
 			<item value="com.swish"/>
 			<item value="com.suman.productreseller"/>
 			<item value="com.zeptoo"/>
@@ -54,6 +56,8 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="groupId">
+			<item value="com.productreview"/>
+			<item value="com.practice"/>
 			<item value="com.swish"/>
 			<item value="com.suman.productreseller"/>
 			<item value="com.zeptoo"/>
@@ -68,6 +72,8 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="ProductReviewOneToMany"/>
+			<item value="ZeptoClone"/>
 			<item value="Swish-Products"/>
 			<item value="ProductResellerApp"/>
 			<item value="Zepto-Product-CRUDRepo"/>
@@ -81,8 +87,6 @@
 			<item value="Spring-Bean-Scope"/>
 			<item value="Spring-Qualifier-Primary"/>
 			<item value="Spring-Filed-Dependency-Injection"/>
-			<item value="Spring-Setter-Dependency-Injection"/>
-			<item value="Spring-Dependency-Injection"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

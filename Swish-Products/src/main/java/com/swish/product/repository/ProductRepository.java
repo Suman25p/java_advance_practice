@@ -11,8 +11,10 @@ import com.swish.product.entity.ProductEntity;
 public interface ProductRepository extends CrudRepository<ProductEntity, Integer> {
 
 	public void findByStatus(String name);
- 
+	 
 	
 	@Query("select pi from ProductEntity pi where name=:name and status=:status")
 	public ProductEntity findByNameAndStatus(@Param("name") String productName, @Param("status") String productStatus); 
+	
+//	List<ProductEntity> findByNameAndStatus(String name, String status);
 }
