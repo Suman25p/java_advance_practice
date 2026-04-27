@@ -40,13 +40,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.zepto"/>
 			<item value="com.productreview"/>
 			<item value="com.practice"/>
 			<item value="com.swish"/>
 			<item value="com.suman.productreseller"/>
 			<item value="com.zeptoo"/>
 			<item value="com.blinket"/>
-			<item value="com.zepto"/>
 			<item value="com.kodewala"/>
 			<item value="com.amazon"/>
 			<item value="com.kodewala.class.practice"/>
@@ -56,13 +56,13 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="groupId">
+			<item value="com.zepto"/>
 			<item value="com.productreview"/>
 			<item value="com.practice"/>
 			<item value="com.swish"/>
 			<item value="com.suman.productreseller"/>
 			<item value="com.zeptoo"/>
 			<item value="com.blinket"/>
-			<item value="com.zepto"/>
 			<item value="com.kodewala"/>
 			<item value="com.amazon"/>
 			<item value="com.kodewala.class.practice"/>
@@ -72,6 +72,7 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="product_category"/>
 			<item value="ProductReviewOneToMany"/>
 			<item value="ZeptoClone"/>
 			<item value="Swish-Products"/>
@@ -86,7 +87,6 @@
 			<item value="Spring-Web-MVC-Sample"/>
 			<item value="Spring-Bean-Scope"/>
 			<item value="Spring-Qualifier-Primary"/>
-			<item value="Spring-Filed-Dependency-Injection"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

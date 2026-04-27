@@ -28,4 +28,11 @@ public class ProductCategoryController {
 		productCategoryService.getCategory(1);
 		return "found category";
 	}
+	
+	@GetMapping("findProducts")
+	@ResponseBody
+	public String findAllCategory() {
+		productCategoryService.findCategory();
+		return "Category Found";
+	}
 }

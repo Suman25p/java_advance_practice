@@ -1,6 +1,7 @@
 package com.zepto.product.category.service;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,5 +51,20 @@ public class ProductCategoryService {
 
 		productCategoryRepository.save(category);
 		System.out.println("ProductCategoryService.createCategory()... END");
+	}
+	
+	public void findCategory() {
+		Iterable<Category> categories = productCategoryRepository.findAll();
+		Iterator<Category> categoriesItr = categories.iterator();
+		
+		while(categoriesItr.hasNext()) {
+			Category category = categoriesItr.next();
+			
+			List<Product> products = category.getProducts();
+			for(Product prod: products) {
+				System.out.println("Product Name: " + prod.getName());
+				System.out.println("Product Id: " + prod.getId());
+			}
+		}
 	}
 }
