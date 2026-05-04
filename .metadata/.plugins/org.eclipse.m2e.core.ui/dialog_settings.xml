@@ -40,6 +40,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.kodekart"/>
 			<item value="com.zepto"/>
 			<item value="com.productreview"/>
 			<item value="com.practice"/>
@@ -56,6 +57,7 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="groupId">
+			<item value="com.kodekart"/>
 			<item value="com.zepto"/>
 			<item value="com.productreview"/>
 			<item value="com.practice"/>
@@ -72,6 +74,7 @@
 			<item value="com.kodewala.practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="KodeKart"/>
 			<item value="product_category"/>
 			<item value="ProductReviewOneToMany"/>
 			<item value="ZeptoClone"/>
@@ -86,7 +89,6 @@
 			<item value="Spring-Bean-Scope-Example"/>
 			<item value="Spring-Web-MVC-Sample"/>
 			<item value="Spring-Bean-Scope"/>
-			<item value="Spring-Qualifier-Primary"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -1,0 +1,52 @@
+name,category,price,quantity,description,status
+Laptop,Electronics,50000,10,Good laptop,ACTIVE
+Mobile,Electronics,15000,20,Android phone,ACTIVE
+TV,Electronics,40000,5,Smart TV,ACTIVE
+Shoes,Fashion,2000,30,Sports shoes,ACTIVE
+Shirt,Fashion,800,50,Cotton shirt,ACTIVE
+Watch,Fashion,2500,25,Digital watch,ACTIVE
+Tablet,Electronics,20000,12,Android tablet,ACTIVE
+Headphones,Electronics,1500,40,Wireless headphones,ACTIVE
+Camera,Electronics,30000,8,DSLR camera,ACTIVE
+Mouse,Electronics,500,100,Optical mouse,ACTIVE
+Keyboard,Electronics,1000,80,Mechanical keyboard,ACTIVE
+Bag,Fashion,1200,60,School bag,ACTIVE
+Bottle,Home,300,70,Water bottle,ACTIVE
+Chair,Furniture,2500,15,Office chair,ACTIVE
+Table,Furniture,5000,10,Wooden table,ACTIVE
+Fan,Electronics,2000,20,Ceiling fan,ACTIVE
+AC,Electronics,35000,6,Split AC,ACTIVE
+Refrigerator,Electronics,30000,5,Double door fridge,ACTIVE
+Mixer,Home,2500,15,Kitchen mixer,ACTIVE
+Iron,Home,1500,20,Electric iron,ACTIVE
+Sofa,Furniture,20000,4,Comfortable sofa,ACTIVE
+Bed,Furniture,15000,5,Double bed,ACTIVE
+Lamp,Home,800,30,LED lamp,ACTIVE
+Curtain,Home,1200,25,Window curtain,ACTIVE
+T-shirt,Fashion,500,60,Casual wear,ACTIVE
+Jeans,Fashion,1500,40,Denim jeans,ACTIVE
+Jacket,Fashion,3000,20,Winter jacket,ACTIVE
+Cap,Fashion,300,50,Sports cap,ACTIVE
+Gloves,Fashion,200,70,Winter gloves,ACTIVE
+Charger,Electronics,400,100,Fast charger,ACTIVE
+PowerBank,Electronics,1500,40,10000mah powerbank,ACTIVE
+Speaker,Electronics,2000,30,Bluetooth speaker,ACTIVE
+Router,Electronics,2500,20,WiFi router,ACTIVE
+Printer,Electronics,8000,10,Color printer,ACTIVE
+Scanner,Electronics,7000,8,Flatbed scanner,ACTIVE
+Pen,Stationery,20,200,Ball pen,ACTIVE
+Notebook,Stationery,50,150,Notebook,ACTIVE
+Marker,Stationery,30,120,Whiteboard marker,ACTIVE
+Stapler,Stationery,100,60,Office stapler,ACTIVE
+Calculator,Electronics,500,70,Scientific calculator,ACTIVE
+
+Wrong1,Electronics,-100,10,Invalid price,ACTIVE
+Wrong2,,2000,10,Missing category,ACTIVE
+Wrong3,Electronics,abc,10,Invalid price text,ACTIVE
+Wrong4,Electronics,2000,-5,Negative quantity,ACTIVE
+Wrong5,Electronics,,10,Missing price,ACTIVE
+Wrong6,Electronics,2000,,Missing quantity,ACTIVE
+Wrong7,Electronics,2000,10,,ACTIVE
+,Electronics,2000,10,Missing name,ACTIVE
+Wrong9,Electronics,2000,10,No description
+Wrong10,Electronics,999999999999999999,10,Too large,ACTIVE
