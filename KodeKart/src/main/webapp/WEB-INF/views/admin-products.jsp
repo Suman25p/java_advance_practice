@@ -5,7 +5,7 @@
 <%@ page isELIgnored="false"%>
 <h2>Admin Product Management</h2>
 
-<!-- 🔗 Top Links -->
+
 <a href="${pageContext.request.contextPath}/admin/add">Add Product</a> |
 <a href="${pageContext.request.contextPath}/admin/upload">Bulk Upload</a>
 

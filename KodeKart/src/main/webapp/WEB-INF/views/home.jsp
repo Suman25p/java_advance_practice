@@ -35,7 +35,7 @@
 </head>
 <body>
 
-<h2>Welcome to KodeKart E-Commerce 🛒</h2>
+<h2>Welcome to KodeKart E-Commerce </h2>
 
 <a href="addPage">Add Product</a>
 <a href="viewProducts">View Products</a>

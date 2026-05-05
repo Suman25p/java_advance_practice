@@ -43,11 +43,11 @@ public class OrderService {
             double price = p.getPrice() * c.getQuantity();
             total += price;
 
-            // reduce stock
+            
             p.setQuantity(p.getQuantity() - c.getQuantity());
             productRepo.save(p);
 
-            // save order item
+            
             OrderItem item = new OrderItem();
             item.setProductId(p.getId());
             item.setQuantity(c.getQuantity());
@@ -59,7 +59,7 @@ public class OrderService {
         order.setTotalAmount(total);
         orderRepo.save(order);
 
-        // clear cart
+        
         cartRepo.deleteAll();
     }
     

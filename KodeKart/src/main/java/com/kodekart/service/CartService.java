@@ -19,52 +19,43 @@ public class CartService {
     @Autowired
     private ProductRepository productRepo;
 
-    public void addToCart(int productId, int quantity) {
-        Cart cart = new Cart();
-        cart.setProductId(productId);
-        cart.setQuantity(quantity);
-        repo.save(cart);
-    }
+    
     public void addToCart(int userId, int productId, int quantity) {
 
         Cart cart = new Cart();
-        cart.setUserId(userId);   // ✅ VERY IMPORTANT
+        cart.setUserId(userId);
         cart.setProductId(productId);
         cart.setQuantity(quantity);
 
         repo.save(cart);
     }
-    public Iterable<Cart> getCart() {
-        return repo.findAll();
+
+    public List<Cart> getUserCart(int userId) {
+        return repo.findByUserId(userId);
     }
 
     public void clearCart() {
         repo.deleteAll();
     }
-    
+
     public void updateQuantity(int id, int quantity) {
         Cart cart = repo.findById(id).get();
         cart.setQuantity(quantity);
         repo.save(cart);
     }
-    
-    public double getTotalAmount() {
+
+   
+    public double getTotalAmount(int userId) {
 
         double total = 0;
 
-        Iterable<Cart> cartItems = repo.findAll();
+        List<Cart> cartItems = repo.findByUserId(userId);
 
         for (Cart c : cartItems) {
-
             Product p = productRepo.findById(c.getProductId()).get();
-
             total += p.getPrice() * c.getQuantity();
         }
 
         return total;
-    }
-
-    public List<Cart> getUserCart(int userId) {
-        return repo.findByUserId(userId);
     }
 }

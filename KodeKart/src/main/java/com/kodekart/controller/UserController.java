@@ -26,27 +26,51 @@ public class UserController {
     @Autowired
     private CartService cartService; // ✅ add this
 
-    // 🔹 Register
+   
     @PostMapping("/registerUser")
     public String registerUser(@ModelAttribute User user) {
         service.saveUser(user);
         return "login";
     }
 
-    // 🔹 Login Page
+    
     @GetMapping("/login")
     public String loginPage() {
         return "login";
     }
 
-    // 🔹 Login Process (ONLY ONE METHOD)
+
+//    @PostMapping("/doLogin")
+//    public String login(@RequestParam String email,
+//                        @RequestParam String password,
+//                        HttpSession session,
+//                        Model model) {
+//
+//        User user = service.login(email, password);]
+//
+//        if (user != null) {
+//            session.setAttribute("user", user);
+//
+//            List<Cart> cartItems = cartService.getUserCart(user.getId());
+//
+//            if (!cartItems.isEmpty()) {
+//                return "redirect:/payment";  
+//            } else {
+//                return "redirect:/index";     
+//            }
+//        } else {
+//            model.addAttribute("error", "Invalid Credentials");
+//            return "login";
+//        }
+//    }
+
     @PostMapping("/doLogin")
     public String login(@RequestParam String email,
                         @RequestParam String password,
                         HttpSession session,
                         Model model) {
 
-        User user = service.login(email, password); // ✅ FIXED
+        User user = service.login(email, password);
 
         if (user != null) {
             session.setAttribute("user", user);
@@ -54,17 +78,16 @@ public class UserController {
             List<Cart> cartItems = cartService.getUserCart(user.getId());
 
             if (!cartItems.isEmpty()) {
-                return "redirect:/payment";   // 👉 payment
-            } else {
-                return "redirect:/index";     // 👉 homepage
+                return "redirect:/checkout"; 
             }
+
+            return "redirect:/index"; 
         } else {
             model.addAttribute("error", "Invalid Credentials");
             return "login";
         }
     }
-
-    // 🔹 Logout
+    
     @GetMapping("/logout")
     public String logout(HttpSession session) {
         session.invalidate();

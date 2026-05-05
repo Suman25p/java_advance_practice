@@ -8,8 +8,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import com.kodekart.entity.Cart;
 import com.kodekart.entity.Product;
+import com.kodekart.entity.User;
 import com.kodekart.service.ProductService;
+import com.kodekart.service.CartService;
 import com.kodekart.service.OrderService;
 
 import jakarta.servlet.http.HttpSession;
@@ -23,7 +26,9 @@ public class CartOrderController {
     @Autowired
     private OrderService orderService;
 
-    // 🛒 Add to Cart (SESSION BASED)
+    @Autowired
+    private CartService cartService;
+    
     @GetMapping("/addToCart/{id}")
     public String addToCart(@PathVariable int id, HttpSession session) {
 
@@ -41,22 +46,22 @@ public class CartOrderController {
         return "redirect:/viewProducts";
     }
 
-    // 🛒 View Cart (GUEST ALLOWED)
     @GetMapping("/cart")
-    public String viewCart(HttpSession session, Model model) {
+    public String cart(HttpSession session, Model model) {
 
-        List<Product> cart = (List<Product>) session.getAttribute("cart");
+        User user = (User) session.getAttribute("user");
 
-        if (cart == null) {
-            cart = new ArrayList<>();
+        if (user == null) {
+            return "redirect:/login";
         }
 
-        model.addAttribute("cartItems", cart);
+        List<Cart> cartItems = cartService.getUserCart(user.getId());
+        model.addAttribute("cartItems", cartItems);
 
         return "cart";
     }
 
-    // 💳 Checkout (LOGIN REQUIRED)
+    
     @GetMapping("/checkout")
     public String checkout(HttpSession session, Model model) {
 
@@ -83,30 +88,59 @@ public class CartOrderController {
         return "payment";
     }
 
-    // 💳 Place Order
+    
     @PostMapping("/placeOrder")
     public String placeOrder(HttpSession session) {
 
         List<Product> cart = (List<Product>) session.getAttribute("cart");
 
-        // 👉 save order logic (optional: use orderService)
-
-        session.removeAttribute("cart");  // clear cart
+        session.removeAttribute("cart");  
 
         return "order-success";
     }
 
-    // 📦 Order History
+    
     @GetMapping("/orders")
     public String orderHistory(Model model) {
         model.addAttribute("orders", orderService.getAllOrders());
         return "order-history";
     }
 
-    // 📄 Order Details
+    
     @GetMapping("/orderDetails")
     public String orderDetails(Model model) {
         model.addAttribute("items", orderService.getOrderDetails());
         return "order-details";
     }
+    
+//    @GetMapping("/cart")
+//    public String cart(HttpSession session, Model model) {
+//
+//        User user = (User) session.getAttribute("user");
+//
+//        if (user == null) {
+//            return "redirect:/login";
+//        }
+//
+//        List<Cart> cartItems = cartService.getUserCart(user.getId());
+//        model.addAttribute("cartItems", cartItems);
+//
+//        return "cart";
+//    }
+    
+  
+//    @GetMapping("/checkout")
+//    public String checkout(HttpSession session, Model model) {
+//
+//        User user = (User) session.getAttribute("user");
+//
+//        if (user == null) {
+//            return "redirect:/login";
+//        }
+//
+//        double total = cartService.getTotalAmount(user.getId());
+//        model.addAttribute("total", total);
+//
+//        return "payment"; 
+//    }
 }

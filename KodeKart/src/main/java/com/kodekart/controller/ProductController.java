@@ -14,40 +14,40 @@ import com.kodekart.service.ProductService;
 import jakarta.servlet.http.HttpSession;
 
 @Controller
-@RequestMapping("/products")   // 🔥 base URL
+@RequestMapping("/products")  
 public class ProductController {
 
     @Autowired
     private ProductService service;
 
-    // 🔹 Home page (optional - better in HomeController)
+   
     @GetMapping("/")
     public String home() {
         return "home";
     }
 
-    // 🔹 View all products
+   
     @GetMapping
     public String viewProducts(Model model) {
         model.addAttribute("products", service.getAll());
         return "view-products";
     }
 
-    // 🔹 Show add product form
+   
     @GetMapping("/add")
     public String showForm(Model model) {
         model.addAttribute("product", new Product());
         return "add-product";
     }
 
-    // 🔹 Save product
+   
     @PostMapping("/save")
     public String save(@ModelAttribute Product p) {
         service.addProduct(p);
         return "redirect:/products";
     }
 
-    // 🔹 Delete product
+    
     @GetMapping("/delete/{id}")
     public String delete(@PathVariable int id) {
         service.delete(id);

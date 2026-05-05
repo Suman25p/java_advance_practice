@@ -21,21 +21,21 @@ public class AdminController {
     @Autowired
     private ProductService service;
 
- // 👉 Add product form open
+ 
     @GetMapping("/add")
     public String addPage(Model model) {
         model.addAttribute("product", new Product());
         return "add-product";
     }
 
-    // 👉 Save product (🔥 यही method पूछा था)
+    
     @PostMapping("/save")
     public String save(@ModelAttribute Product p) {
         service.addProduct(p);
         return "redirect:/admin/products";
     }
 
-    // 👉 View all products
+    
     @GetMapping("/products")
     public String viewProducts(Model model) {
         model.addAttribute("products", service.getAll());
@@ -43,28 +43,28 @@ public class AdminController {
     }
 
 
-    // Edit
+    
     @GetMapping("/edit/{id}")
     public String edit(@PathVariable int id, Model model) {
         model.addAttribute("product", service.getById(id));
         return "edit-product";
     }
 
-    // Update
+    
     @PostMapping("/update")
     public String update(@ModelAttribute Product p) {
         service.update(p);
         return "redirect:/admin/products";
     }
 
-    // Delete
+    
     @GetMapping("/delete/{id}")
     public String delete(@PathVariable int id) {
         service.delete(id);
         return "redirect:/admin/products";
     }
 
-    // Status Toggle 🔥
+    
     @GetMapping("/status/{id}")
     public String changeStatus(@PathVariable int id) {
         service.changeStatus(id);
@@ -73,12 +73,11 @@ public class AdminController {
     
     @GetMapping("/upload")
     public String uploadPage() {
-        return "upload-products"; // upload.jsp
+        return "upload-products"; 
     }
     
     @PostMapping("/uploadCSV")
     public String uploadCSV(@RequestParam("file") MultipartFile file) {
-        // CSV logic (already दिया था)
         return "redirect:/admin/products";
     }
 }

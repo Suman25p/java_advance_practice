@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import jakarta.servlet.http.HttpSession;
+
 @Controller
 public class HomeController {
 
@@ -11,11 +13,21 @@ public class HomeController {
 	    public String home() {
 	        return "home";   // home.jsp
 	    }
+	 
 //    @RequestMapping("/")
 //    public String home() {
 //        return "index"; // index.jsp
 //    }
+	 
+	 @GetMapping("/index")
+	 public String index(HttpSession session) {
 
+	     if (session.getAttribute("user") == null) {
+	         return "redirect:/login";  
+	     }
+
+	     return "index"; 
+	 }
     @RequestMapping("/login")
     public String login() {
         return "login";

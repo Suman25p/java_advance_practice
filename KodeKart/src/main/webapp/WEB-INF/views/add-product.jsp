@@ -37,7 +37,7 @@
 
 <h2>Add Product</h2>
 
-<!-- 🔥 FIXED ACTION -->
+
 <form:form action="${pageContext.request.contextPath}/admin/save" method="post" modelAttribute="product">
 
     <label>Name:</label>
@@ -62,7 +62,7 @@
 
 <br>
 
-<!-- 🔥 FIXED HOME LINK -->
+
 <a href="${pageContext.request.contextPath}/">Go Home</a>
 
 </body>

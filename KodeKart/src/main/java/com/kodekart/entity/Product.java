@@ -18,7 +18,7 @@ public class Product {
     private int quantity;
     private String description;
 
-    private String status; // ACTIVE / INACTIVE
+    private String status; 
 
 	public int getId() {
 		return id;

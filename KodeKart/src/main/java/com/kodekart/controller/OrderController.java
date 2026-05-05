@@ -17,9 +17,7 @@ public class OrderController {
 
 	    List<Product> cart = (List<Product>) session.getAttribute("cart");
 
-	    // 👉 यहाँ DB save logic (तुम्हारा existing code)
-
-	    session.removeAttribute("cart");  // clear cart
+	    session.removeAttribute("cart");  
 
 	    return "order-success";
 	}

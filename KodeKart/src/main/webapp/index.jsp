@@ -43,7 +43,7 @@
 <body>
 
 <header>
-    <h1>E-Commerce Management System</h1>
+    <h1>KodeKart - E-Commerce App</h1>
 </header>
 
 <nav>
@@ -76,7 +76,7 @@
 </div>
 
 <footer>
-    <p>Developed by You</p>
+    <p>Developed by Kodekart team</p>
 </footer>
 
 </body>

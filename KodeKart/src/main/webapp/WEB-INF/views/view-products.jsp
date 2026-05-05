@@ -1,6 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page isELIgnored="false"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,14 +9,8 @@
 <title>View Products</title>
 
 <style>
-    body {
-        font-family: Arial;
-        margin: 40px;
-    }
-
-    h2 {
-        text-align: center;
-    }
+    body { font-family: Arial; margin: 40px; }
+    h2 { text-align: center; }
 
     table {
         width: 100%;
@@ -33,19 +28,13 @@
         color: white;
     }
 
-    a {
-        text-decoration: none;
-        padding: 5px 10px;
+    button {
+        padding: 6px 12px;
         border-radius: 5px;
+        border: none;
         color: white;
-    }
-
-    .delete {
-        background-color: red;
-    }
-
-    .cart {
         background-color: green;
+        cursor: pointer;
     }
 
     .home {
@@ -53,6 +42,8 @@
         margin-top: 20px;
         padding: 10px;
         background-color: #2c3e50;
+        color: white;
+        text-decoration: none;
     }
 </style>
 
@@ -76,10 +67,14 @@
     <td>${p.category}</td>
     <td>${p.price}</td>
     <td>${p.quantity}</td>
-   
+
     <td>
-        <a class="cart" href="addToCart/${p.id}">Add to Cart</a>
-        
+        <!-- ✅ FIXED ADD TO CART -->
+        <form action="${pageContext.request.contextPath}/addToCart" method="post">
+            <input type="hidden" name="productId" value="${p.id}" />
+            <input type="hidden" name="quantity" value="1" />
+            <button type="submit">Add to Cart</button>
+        </form>
     </td>
 </tr>
 </c:forEach>
@@ -87,7 +82,7 @@
 </table>
 
 <br>
-<a class="home" href="/">Go Home</a>
+<a class="home" href="${pageContext.request.contextPath}/">Go Home</a>
 
 </body>
 </html>
