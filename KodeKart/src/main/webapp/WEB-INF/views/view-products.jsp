@@ -37,6 +37,11 @@
         cursor: pointer;
     }
 
+    .disabled {
+        background-color: gray;
+        cursor: not-allowed;
+    }
+
     .home {
         display: inline-block;
         margin-top: 20px;
@@ -52,12 +57,24 @@
 
 <h2>All Products</h2>
 
+<!-- ✅ Error message -->
+<c:if test="${not empty error}">
+    <p style="color:red">${error}</p>
+</c:if>
+
+<!-- ✅ Empty check -->
+<c:if test="${empty products}">
+    <p>No products available!</p>
+</c:if>
+
+<c:if test="${not empty products}">
 <table>
 <tr>
     <th>Name</th>
     <th>Category</th>
     <th>Price</th>
     <th>Quantity</th>
+    <th>Status</th>
     <th>Actions</th>
 </tr>
 
@@ -65,21 +82,43 @@
 <tr>
     <td>${p.name}</td>
     <td>${p.category}</td>
-    <td>${p.price}</td>
+    <td>₹ ${p.price}</td>
     <td>${p.quantity}</td>
 
+    <!-- 🔥 Status -->
     <td>
-        <!-- ✅ FIXED ADD TO CART -->
-        <form action="${pageContext.request.contextPath}/addToCart" method="post">
-            <input type="hidden" name="productId" value="${p.id}" />
-            <input type="hidden" name="quantity" value="1" />
-            <button type="submit">Add to Cart</button>
-        </form>
+        <c:choose>
+            <c:when test="${p.status == 'ACTIVE'}">
+                <span style="color:green;">Available</span>
+            </c:when>
+            <c:otherwise>
+                <span style="color:red;">Out of Stock</span>
+            </c:otherwise>
+        </c:choose>
     </td>
+
+    <td>
+        <!-- 🔥 Only allow if in stock -->
+        <c:choose>
+
+            <c:when test="${p.status == 'ACTIVE'}">
+                <form action="${pageContext.request.contextPath}/cart/add/${p.id}" method="get">
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </c:when>
+
+            <c:otherwise>
+                <button class="disabled" disabled>Out of Stock</button>
+            </c:otherwise>
+
+        </c:choose>
+    </td>
+
 </tr>
 </c:forEach>
 
 </table>
+</c:if>
 
 <br>
 <a class="home" href="${pageContext.request.contextPath}/">Go Home</a>

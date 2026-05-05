@@ -1,16 +1,11 @@
 package com.kodekart.controller;
 
-import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
-import com.kodekart.entity.Cart;
 import com.kodekart.entity.User;
 import com.kodekart.service.CartService;
 import com.kodekart.service.UserService;
@@ -24,45 +19,25 @@ public class UserController {
     private UserService service;
 
     @Autowired
-    private CartService cartService; // ✅ add this
+    private CartService cartService;
 
-   
+    // ✅ Register
     @PostMapping("/registerUser")
-    public String registerUser(@ModelAttribute User user) {
-        service.saveUser(user);
-        return "login";
+    public String registerUser(@ModelAttribute User user, Model model) {
+        try {
+            service.saveUser(user);
+            return "login";
+        } catch (Exception e) {
+            model.addAttribute("error", e.getMessage());
+            return "register";
+        }
     }
 
-    
+    // ✅ Login Page
     @GetMapping("/login")
     public String loginPage() {
         return "login";
     }
-
-
-//    @PostMapping("/doLogin")
-//    public String login(@RequestParam String email,
-//                        @RequestParam String password,
-//                        HttpSession session,
-//                        Model model) {
-//
-//        User user = service.login(email, password);]
-//
-//        if (user != null) {
-//            session.setAttribute("user", user);
-//
-//            List<Cart> cartItems = cartService.getUserCart(user.getId());
-//
-//            if (!cartItems.isEmpty()) {
-//                return "redirect:/payment";  
-//            } else {
-//                return "redirect:/index";     
-//            }
-//        } else {
-//            model.addAttribute("error", "Invalid Credentials");
-//            return "login";
-//        }
-//    }
 
     @PostMapping("/doLogin")
     public String login(@RequestParam String email,
@@ -70,24 +45,26 @@ public class UserController {
                         HttpSession session,
                         Model model) {
 
-        User user = service.login(email, password);
+        try {
+            User user = service.login(email, password);
 
-        if (user != null) {
             session.setAttribute("user", user);
 
-            List<Cart> cartItems = cartService.getUserCart(user.getId());
-
-            if (!cartItems.isEmpty()) {
-                return "redirect:/checkout"; 
+            // ADMIN
+            if ("ADMIN".equalsIgnoreCase(user.getRole())) {
+                return "redirect:/admin/products";
             }
 
-            return "redirect:/index"; 
-        } else {
+            // USER
+            return "redirect:/";   // 🔥 FIXED
+
+        } catch (Exception e) {
             model.addAttribute("error", "Invalid Credentials");
             return "login";
         }
     }
-    
+
+    // ✅ Logout
     @GetMapping("/logout")
     public String logout(HttpSession session) {
         session.invalidate();

@@ -1,6 +1,7 @@
 package com.kodekart.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import com.kodekart.entity.User;
@@ -12,16 +13,41 @@ public class UserService {
     @Autowired
     private UserRepository repo;
 
+    // ✅ Login (better approach)
     public User login(String email, String password) {
-        return repo.findByEmailAndPassword(email, password);
+
+        User user = repo.findByEmail(email);
+
+        if (user == null || !user.getPassword().equals(password)) {
+            throw new RuntimeException("Invalid email or password!");
+        }
+
+        return user;
     }
 
+    // ✅ Register (email unique + DB safe)
     public void saveUser(User user) {
-        User existing = repo.findByEmail(user.getEmail());
 
-        if (existing != null) {
+        // 🔥 default role
+        if (user.getRole() == null || user.getRole().isEmpty()) {
+            user.setRole("USER");
+        }
+
+        try {
+            repo.save(user);
+        } catch (DataIntegrityViolationException e) {
+            // DB level duplicate email
             throw new RuntimeException("Email already registered!");
         }
-        repo.save(user);
+    }
+
+    // ✅ Get by email
+    public User getByEmail(String email) {
+        return repo.findByEmail(email);
+    }
+
+    // ✅ Role check
+    public boolean isAdmin(User user) {
+        return user != null && "ADMIN".equalsIgnoreCase(user.getRole());
     }
 }

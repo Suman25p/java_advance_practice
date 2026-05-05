@@ -9,4 +9,6 @@ import com.kodekart.entity.Product;
 public interface ProductRepository extends JpaRepository<Product, Integer> {
 
     List<Product> findByCategory(String category);
+
+	List<Product> findByNameContainingIgnoreCase(String keyword);
 }

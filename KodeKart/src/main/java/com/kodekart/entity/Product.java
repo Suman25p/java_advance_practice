@@ -1,9 +1,6 @@
 package com.kodekart.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class Product {
@@ -16,63 +13,79 @@ public class Product {
     private String category;
     private double price;
     private int quantity;
+
+    @Column(length = 500)
     private String description;
 
-    private String status; 
+    private String status; // ACTIVE / INACTIVE
 
-	public int getId() {
-		return id;
-	}
+    // ✅ Constructors (important)
+    public Product() {}
 
-	public String getName() {
-		return name;
-	}
+    public Product(String name, String category, double price, int quantity, String description, String status) {
+        this.name = name;
+        this.category = category;
+        this.price = price;
+        this.quantity = quantity;
+        this.description = description;
+        this.status = status;
+    }
 
-	public String getCategory() {
-		return category;
-	}
+    // ✅ Getters
+    public int getId() {
+        return id;
+    }
 
-	public double getPrice() {
-		return price;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public int getQuantity() {
-		return quantity;
-	}
+    public String getCategory() {
+        return category;
+    }
 
-	public String getDescription() {
-		return description;
-	}
+    public double getPrice() {
+        return price;
+    }
 
-	public String getStatus() {
-		return status;
-	}
+    public int getQuantity() {
+        return quantity;
+    }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public String getDescription() {
+        return description;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getStatus() {
+        return status;
+    }
 
-	public void setCategory(String category) {
-		this.category = category;
-	}
+    // ✅ Setters
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public void setPrice(double price) {
-		this.price = price;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
-	}
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
-	public void setDescription(String description) {
-		this.description = description;
-	}
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
-	public void setStatus(String status) {
-		this.status = status;
-	}
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }
