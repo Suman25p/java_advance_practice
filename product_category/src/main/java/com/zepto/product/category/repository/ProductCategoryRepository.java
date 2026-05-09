@@ -16,7 +16,7 @@ public interface ProductCategoryRepository extends CrudRepository<Category, Inte
 	
 //	@Query("select distinct c from Category c join fetch c.products") 
 //	public Iterable<Category> findall(); -->We can not use Iterable with join fetch
-	
+//	
 	@Query("select distinct c from Category c join fetch c.products")
 	public List<Category> findAll();
 }
@@ -34,15 +34,14 @@ Product Name: Mouse
 Product Id: 1
 Product Name: Laptop
 Product Id: 2
-Product Name: Mouse2
-Product Id: 53
 Product Name: 
 Product Id: 52
+Product Name: Mouse2
+Product Id: 53
 Product Name: Powder
 Product Id: 102
 Product Name: Transformer
 Product Id: 152
-*/
 
 
 /* Solution of N+1 problem
@@ -51,10 +50,10 @@ Product Name: Mouse
 Product Id: 1
 Product Name: Laptop
 Product Id: 2
-Product Name: Mouse2
-Product Id: 53
 Product Name: 
 Product Id: 52
+Product Name: Mouse2
+Product Id: 53
 Product Name: Powder
 Product Id: 102
 Product Name: Transformer

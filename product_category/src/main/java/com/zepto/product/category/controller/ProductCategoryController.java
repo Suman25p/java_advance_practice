@@ -28,10 +28,10 @@ public class ProductCategoryController {
 		productCategoryService.getCategory(1);
 		return "found category";
 	}
-	
-	@GetMapping("findProducts")
+
+	@GetMapping("findAllCategories")
 	@ResponseBody
-	public String findAllCategory() {
+	public String findAllCategories() {
 		productCategoryService.findCategory();
 		return "Category Found";
 	}
