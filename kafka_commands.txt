@@ -1,0 +1,42 @@
+<---Starting   Zookeeper----->
+C:\Users\Home>docker run -d --name zookeeper -p 2181:2181 -e ZOOKEEPER_CLIENT_PORT=2181 confluentinc/cp-zookeeper:latest
+
+
+<---Starting   Kafka----->
+C:\Users\Home>docker run -d --name kafka -p 9092:9092 -e KAFKA_BROKER_ID=1 -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 --link zookeeper confluentinc/cp-kafka:7.5.0
+
+<-----checking   process---->
+C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --list
+
+
+Send message
+
+--------------
+
+docker exec -it kafka kafka-console-producer --bootstrap-server localhost:9092 --topic order-confirmed
+
+ 
+
+Consume Message
+
+----------------
+
+docker exec -it kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic order-confirmed --from-beginning
+
+DEsc 
+
+-----------------
+
+docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --describe --topic order-confirmed
+
+
+
+docker exec -it kafka bash  
+
+ 
+
+ls -lah /var/lib/kafka/data
+
+
+/etc/kafka/server.properties
+

@@ -1,0 +1,434 @@
+C:\Users\Home>docker  ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\Home>docker run -d --name zookeeper -p 2181:2181 -e ZOOKEEPER_CLIENT_PORT=2181 confluentinc/cp-zookeeper:latest
+Unable to find image 'confluentinc/cp-zookeeper:latest' locally
+latest: Pulling from confluentinc/cp-zookeeper
+c955f6e31a04: Pull complete
+eca0188f477e: Pull complete
+e444bcd4d577: Pull complete
+eabd8714fec9: Pull complete
+45fd2fec8a19: Pull complete
+8f10199ed94b: Pull complete
+f963a77d2726: Pull complete
+f3a82e9f1761: Pull complete
+79161a3f5362: Pull complete
+9c266ba63f51: Pull complete
+2e8a7df9c2ee: Pull complete
+10f05dd8b1db: Pull complete
+41dac8b43ba6: Pull complete
+71a9f6a9ab4d: Pull complete
+da3ed5db7103: Pull complete
+Digest: sha256:7610a50b13e7e9f6dc0dd00585ffdcb0bbed27392bef6b45791ef4087b2a746c
+Status: Downloaded newer image for confluentinc/cp-zookeeper:latest
+2915aeeb71bfba306801d2ab37beb47a46503d0a5af23de98c325c97aa4f8e8c
+
+C:\Users\Home>docker ps
+CONTAINER ID   IMAGE                              COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+2915aeeb71bf   confluentinc/cp-zookeeper:latest   "/etc/confluent/dock…"   25 seconds ago   Up 21 seconds   0.0.0.0:2181->2181/tcp, [::]:2181->2181/tcp   zookeeper
+
+C:\Users\Home>docker run -d --name kafka -p 9092:9092 -e KAFKA_BROKER_ID=1 -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 --link zookeeper confluentinc/cp-kafka:7.5.0
+Unable to find image 'confluentinc/cp-kafka:7.5.0' locally
+7.5.0: Pulling from confluentinc/cp-kafka
+bd3de482b201: Pull complete
+0fbb79a570de: Pull complete
+f80eb2db9d48: Pull complete
+be07a4b85081: Pull complete
+95d7897d98ce: Pull complete
+6086b74cc48f: Pull complete
+8592ceb925f7: Pull complete
+210860798c03: Pull complete
+57168402cb72: Pull complete
+04b3375cab83: Pull complete
+6edc125f768c: Pull complete
+Digest: sha256:fbbb6fa11b258a88b83f54d4f0bddfcffbf2279f99d66a843486e3da7bdfbf41
+Status: Downloaded newer image for confluentinc/cp-kafka:7.5.0
+161172c2c1eff75d7a67fd3806654e63cfdef68c00b4d959a4f5b47bbf5a582a
+
+C:\Users\Home>docker ps
+CONTAINER ID   IMAGE                              COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+161172c2c1ef   confluentinc/cp-kafka:7.5.0        "/etc/confluent/dock…"   10 seconds ago   Up 8 seconds    0.0.0.0:9092->9092/tcp, [::]:9092->9092/tcp   kafka
+2915aeeb71bf   confluentinc/cp-zookeeper:latest   "/etc/confluent/dock…"   11 minutes ago   Up 11 minutes   0.0.0.0:2181->2181/tcp, [::]:2181->2181/tcp   zookeeper
+
+C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --list
+
+
+What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug kafka
+    Learn more at https://docs.docker.com/go/debug-cli/
+
+C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --create --topic order-confirmed --partitions 5 --replication-factor 1
+Created topic order-confirmed.
+
+What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug kafka
+    Learn more at https://docs.docker.com/go/debug-cli/
+
+C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --list
+order-confirmed
+
+What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug kafka
+    Learn more at https://docs.docker.com/go/debug-cli/
+
+C:\Users\Home>docker exec -it kafka kafka-console-producer --bootstrap-server localhost:9092 --topic order-confirmed
+>This is first order
+>This is second order
+>^C
+What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug kafka
+    Learn more at https://docs.docker.com/go/debug-cli/
+
+C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --describe --topic order-confirmed
+Topic: order-confirmed  TopicId: w-5qEgSmQ2ytn_xDoR1rsg PartitionCount: 5       ReplicationFactor: 1    Configs:
+        Topic: order-confirmed  Partition: 0    Leader: 1       Replicas: 1     Isr: 1
+        Topic: order-confirmed  Partition: 1    Leader: 1       Replicas: 1     Isr: 1
+        Topic: order-confirmed  Partition: 2    Leader: 1       Replicas: 1     Isr: 1
+        Topic: order-confirmed  Partition: 3    Leader: 1       Replicas: 1     Isr: 1
+        Topic: order-confirmed  Partition: 4    Leader: 1       Replicas: 1     Isr: 1
+
+What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug kafka
+    Learn more at https://docs.docker.com/go/debug-cli/
+
+C:\Users\Home>docker exec -it kafka bash
+[appuser@161172c2c1ef ~]$ pwd
+/home/appuser
+[appuser@161172c2c1ef ~]$ ls -ltr
+total 0
+[appuser@161172c2c1ef ~]$ ls -lah /var/lib/kafka/data
+total 244K
+drwxrwxr-x 57 appuser root    4.0K Jun  2 09:41 .
+drwxrwx---  3 appuser root    4.0K Aug 18  2023 ..
+-rw-r--r--  1 appuser appuser    0 Jun  2 09:05 .lock
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-0
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-1
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-10
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-11
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-12
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-13
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-14
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-15
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-16
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-17
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-18
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-19
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-2
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-20
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-21
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-22
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-23
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-24
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-25
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-26
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-27
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-28
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-29
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-3
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-30
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-31
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-32
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-33
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-34
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-35
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-36
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-37
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-38
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-39
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-4
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-40
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-41
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-42
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-43
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-44
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-45
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-46
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-47
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-48
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-49
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-5
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-6
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-7
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-8
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:24 __consumer_offsets-9
+-rw-r--r--  1 appuser appuser    0 Jun  2 09:05 cleaner-offset-checkpoint
+-rw-r--r--  1 appuser appuser    4 Jun  2 09:41 log-start-offset-checkpoint
+-rw-r--r--  1 appuser appuser   88 Jun  2 09:05 meta.properties
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:06 order-confirmed-0
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:06 order-confirmed-1
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:06 order-confirmed-2
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:06 order-confirmed-3
+drwxr-xr-x  2 appuser appuser 4.0K Jun  2 09:06 order-confirmed-4
+-rw-r--r--  1 appuser appuser 1.3K Jun  2 09:41 recovery-point-offset-checkpoint
+-rw-r--r--  1 appuser appuser 1.3K Jun  2 09:41 replication-offset-checkpoint
+[appuser@161172c2c1ef ~]$
+[appuser@161172c2c1ef ~]$ cd /var/lib/kafka/data
+[appuser@161172c2c1ef data]$ ls -ltr
+total 236
+-rw-r--r-- 1 appuser appuser    0 Jun  2 09:05 cleaner-offset-checkpoint
+-rw-r--r-- 1 appuser appuser   88 Jun  2 09:05 meta.properties
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:06 order-confirmed-0
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:06 order-confirmed-3
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:06 order-confirmed-4
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:06 order-confirmed-1
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:06 order-confirmed-2
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-3
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-18
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-41
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-10
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-33
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-48
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-19
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-34
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-4
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-11
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-26
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-49
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-39
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-9
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-24
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-31
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-46
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-1
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-16
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-2
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-25
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-40
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-47
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-17
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-32
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-37
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-7
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-22
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-29
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-44
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-14
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-23
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-38
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-8
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-45
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-15
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-30
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-0
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-35
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-5
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-20
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-27
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-42
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-12
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-21
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-36
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-6
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-43
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-13
+drwxr-xr-x 2 appuser appuser 4096 Jun  2 09:24 __consumer_offsets-28
+-rw-r--r-- 1 appuser appuser 1295 Jun  2 09:42 recovery-point-offset-checkpoint
+-rw-r--r-- 1 appuser appuser    4 Jun  2 09:42 log-start-offset-checkpoint
+-rw-r--r-- 1 appuser appuser 1295 Jun  2 09:42 replication-offset-checkpoint
+[appuser@161172c2c1ef data]$ cd order-confirmed-0
+[appuser@161172c2c1ef order-confirmed-0]$ ls  -ltr
+total 8
+-rw-r--r-- 1 appuser appuser        0 Jun  2 09:06 00000000000000000000.log
+-rw-r--r-- 1 appuser appuser 10485760 Jun  2 09:06 00000000000000000000.index
+-rw-r--r-- 1 appuser appuser 10485756 Jun  2 09:06 00000000000000000000.timeindex
+-rw-r--r-- 1 appuser appuser       43 Jun  2 09:06 partition.metadata
+-rw-r--r-- 1 appuser appuser        8 Jun  2 09:06 leader-epoch-checkpoint
+[appuser@161172c2c1ef order-confirmed-0]$ cd ../order-confirmed-1
+[appuser@161172c2c1ef order-confirmed-1]$ ls -ltr
+total 8
+-rw-r--r-- 1 appuser appuser       43 Jun  2 09:06 partition.metadata
+-rw-r--r-- 1 appuser appuser 10485756 Jun  2 09:06 00000000000000000000.timeindex
+-rw-r--r-- 1 appuser appuser        0 Jun  2 09:06 00000000000000000000.log
+-rw-r--r-- 1 appuser appuser 10485760 Jun  2 09:06 00000000000000000000.index
+-rw-r--r-- 1 appuser appuser        8 Jun  2 09:06 leader-epoch-checkpoint
+[appuser@161172c2c1ef order-confirmed-1]$ cd ../order-confirmed-2
+[appuser@161172c2c1ef order-confirmed-2]$ ls -ltr
+total 12
+-rw-r--r-- 1 appuser appuser       43 Jun  2 09:06 partition.metadata
+-rw-r--r-- 1 appuser appuser 10485756 Jun  2 09:06 00000000000000000000.timeindex
+-rw-r--r-- 1 appuser appuser 10485760 Jun  2 09:06 00000000000000000000.index
+-rw-r--r-- 1 appuser appuser        8 Jun  2 09:06 leader-epoch-checkpoint
+-rw-r--r-- 1 appuser appuser      175 Jun  2 09:24 00000000000000000000.log
+[appuser@161172c2c1ef order-confirmed-2]$ cat 00000000000000000000.log
+K☻��]�☺����=☺����=☺2☺&This is first order☺L☻�|f⌂☺�����☺�����☺☺4☺(This is second order[appuser@161172c2c1ef order-confirmed-2]$ /etc/kafka/server.properties
+bash: /etc/kafka/server.properties: Permission denied
+[appuser@161172c2c1ef order-confirmed-2]$ cd ..
+[appuser@161172c2c1ef data]$ /etc/kafka/server.properties
+bash: /etc/kafka/server.properties: Permission denied
+[appuser@161172c2c1ef data]$ cd
+[appuser@161172c2c1ef ~]$ /etc/kafka/server.properties
+bash: /etc/kafka/server.properties: Permission denied
+[appuser@161172c2c1ef ~]$ pwd
+/home/appuser
+[appuser@161172c2c1ef ~]$ cd
+[appuser@161172c2c1ef ~]$ cd ..
+[appuser@161172c2c1ef home]$ /etc/kafka/server.properties
+bash: /etc/kafka/server.properties: Permission denied
+[appuser@161172c2c1ef home]$ /etc/kafka/server.properties
+bash: /etc/kafka/server.properties: Permission denied
+[appuser@161172c2c1ef home]$ cd
+[appuser@161172c2c1ef ~]$ cd ..
+[appuser@161172c2c1ef home]$ cd ../C:\Users\Home
+bash: cd: ../C:UsersHome: No such file or directory
+[appuser@161172c2c1ef home]$ cd
+[appuser@161172c2c1ef ~]$ cd C:\Users\Home
+bash: cd: C:UsersHome: No such file or directory
+[appuser@161172c2c1ef ~]$ cd /C:\Users\Home
+bash: cd: /C:UsersHome: No such file or directory
+[appuser@161172c2c1ef ~]$ pwd
+/home/appuser
+[appuser@161172c2c1ef ~]$ cd /etc/kafka/server.properties
+bash: cd: /etc/kafka/server.properties: Not a directory
+[appuser@161172c2c1ef ~]$ cat /etc/kafka/server.properties
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+# This configuration file is intended for use in ZK-based mode, where Apache ZooKeeper is required.
+# See kafka.server.KafkaConfig for additional details and defaults
+#
+
+############################# Server Basics #############################
+
+# The id of the broker. This must be set to a unique integer for each broker.
+broker.id=0
+
+############################# Socket Server Settings #############################
+
+# The address the socket server listens on. If not configured, the host name will be equal to the value of
+# java.net.InetAddress.getCanonicalHostName(), with PLAINTEXT listener name, and port 9092.
+#   FORMAT:
+#     listeners = listener_name://host_name:port
+#   EXAMPLE:
+#     listeners = PLAINTEXT://your.host.name:9092
+#listeners=PLAINTEXT://:9092
+
+# Listener name, hostname and port the broker will advertise to clients.
+# If not set, it uses the value for "listeners".
+#advertised.listeners=PLAINTEXT://your.host.name:9092
+
+# Maps listener names to security protocols, the default is for them to be the same. See the config documentation for more details
+#listener.security.protocol.map=PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+
+# The number of threads that the server uses for receiving requests from the network and sending responses to the network
+num.network.threads=3
+
+# The number of threads that the server uses for processing requests, which may include disk I/O
+num.io.threads=8
+
+# The send buffer (SO_SNDBUF) used by the socket server
+socket.send.buffer.bytes=102400
+
+# The receive buffer (SO_RCVBUF) used by the socket server
+socket.receive.buffer.bytes=102400
+
+# The maximum size of a request that the socket server will accept (protection against OOM)
+socket.request.max.bytes=104857600
+
+
+############################# Log Basics #############################
+
+# A comma separated list of directories under which to store log files
+log.dirs=/var/lib/kafka
+
+# The default number of log partitions per topic. More partitions allow greater
+# parallelism for consumption, but this will also result in more files across
+# the brokers.
+num.partitions=1
+
+# The number of threads per data directory to be used for log recovery at startup and flushing at shutdown.
+# This value is recommended to be increased for installations with data dirs located in RAID array.
+num.recovery.threads.per.data.dir=1
+
+############################# Internal Topic Settings  #############################
+# The replication factor for the group metadata internal topics "__consumer_offsets" and "__transaction_state"
+# For anything other than development testing, a value greater than 1 is recommended to ensure availability such as 3.
+offsets.topic.replication.factor=1
+transaction.state.log.replication.factor=1
+transaction.state.log.min.isr=1
+
+############################# Log Flush Policy #############################
+
+# Messages are immediately written to the filesystem but by default we only fsync() to sync
+# the OS cache lazily. The following configurations control the flush of data to disk.
+# There are a few important trade-offs here:
+#    1. Durability: Unflushed data may be lost if you are not using replication.
+#    2. Latency: Very large flush intervals may lead to latency spikes when the flush does occur as there will be a lot of data to flush.
+#    3. Throughput: The flush is generally the most expensive operation, and a small flush interval may lead to excessive seeks.
+# The settings below allow one to configure the flush policy to flush data after a period of time or
+# every N messages (or both). This can be done globally and overridden on a per-topic basis.
+
+# The number of messages to accept before forcing a flush of data to disk
+#log.flush.interval.messages=10000
+
+# The maximum amount of time a message can sit in a log before we force a flush
+#log.flush.interval.ms=1000
+
+############################# Log Retention Policy #############################
+
+# The following configurations control the disposal of log segments. The policy can
+# be set to delete segments after a period of time, or after a given size has accumulated.
+# A segment will be deleted whenever *either* of these criteria are met. Deletion always happens
+# from the end of the log.
+
+# The minimum age of a log file to be eligible for deletion due to age
+log.retention.hours=168
+
+# A size-based retention policy for logs. Segments are pruned from the log unless the remaining
+# segments drop below log.retention.bytes. Functions independently of log.retention.hours.
+#log.retention.bytes=1073741824
+
+# The maximum size of a log segment file. When this size is reached a new log segment will be created.
+#log.segment.bytes=1073741824
+
+# The interval at which log segments are checked to see if they can be deleted according
+# to the retention policies
+log.retention.check.interval.ms=300000
+
+############################# Zookeeper #############################
+
+# Zookeeper connection string (see zookeeper docs for details).
+# This is a comma separated host:port pairs, each corresponding to a zk
+# server. e.g. "127.0.0.1:3000,127.0.0.1:3001,127.0.0.1:3002".
+# You can also append an optional chroot string to the urls to specify the
+# root directory for all kafka znodes.
+zookeeper.connect=localhost:2181
+
+# Timeout in ms for connecting to zookeeper
+zookeeper.connection.timeout.ms=18000
+
+##################### Confluent Metrics Reporter #######################
+# Confluent Control Center and Confluent Auto Data Balancer integration
+#
+# Uncomment the following lines to publish monitoring data for
+# Confluent Control Center and Confluent Auto Data Balancer
+# If you are using a dedicated metrics cluster, also adjust the settings
+# to point to your metrics kakfa cluster.
+#metric.reporters=io.confluent.metrics.reporter.ConfluentMetricsReporter
+#confluent.metrics.reporter.bootstrap.servers=localhost:9092
+#
+# Uncomment the following line if the metrics cluster has a single broker
+#confluent.metrics.reporter.topic.replicas=1
+
+############################# Group Coordinator Settings #############################
+
+# The following configuration specifies the time, in milliseconds, that the GroupCoordinator will delay the initial consumer rebalance.
+# The rebalance will be further delayed by the value of group.initial.rebalance.delay.ms as new members join the group, up to a maximum of max.poll.interval.ms.
+# The default value for this is 3 seconds.
+# We override this to 0 here as it makes for a better out-of-the-box experience for development and testing.
+# However, in production environments the default value of 3 seconds is more suitable as this will help to avoid unnecessary, and potentially expensive, rebalances during application startup.
+group.initial.rebalance.delay.ms=0
+[appuser@161172c2c1ef ~]$
+
