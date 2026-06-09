@@ -8,7 +8,11 @@ C:\Users\Home>docker run -d --name kafka -p 9092:9092 -e KAFKA_BROKER_ID=1 -e KA
 <-----checking   process---->
 C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --list
 
+<--Create Topic--->
+C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --create --topic order-confirmed --partitions 5 --replication-factor 1
+Created topic order-confirmed.
 
+docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --create --topic video-uploaded --partitions 5 --replication-factor 3
 Send message
 
 --------------
@@ -23,6 +27,9 @@ Consume Message
 
 docker exec -it kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic order-confirmed --from-beginning
 
+docker exec -it kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic order-placed --from-beginning
+
+docker exec -it kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic video-uploaded --from-beginning
 DEsc 
 
 -----------------
