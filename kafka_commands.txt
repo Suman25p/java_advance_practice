@@ -9,7 +9,7 @@ C:\Users\Home>docker run -d --name kafka -p 9092:9092 -e KAFKA_BROKER_ID=1 -e KA
 C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --list
 
 <--Create Topic--->
-C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --create --topic order-confirmedd --partitions 5 --replication-factor 1
+C:\Users\Home>docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --create --topic order-topic --partitions 5 --replication-factor 1
 Created topic order-confirmed.
 
 docker exec -it kafka kafka-topics --bootstrap-server localhost:9092 --create --topic video-uploaded --partitions 5 --replication-factor 3
