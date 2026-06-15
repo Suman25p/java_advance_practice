@@ -26,9 +26,9 @@ public class OrderService {
 		orderRepository.save(entity); // Interacting with database
 
 		// Send data to kafka topic.....
-		String value = orderRequest.getItemName() + " " +orderRequest.getStatus();
-		
-		kafkaService.sendMessage("order-confirmed", null, value);
+//		String value = orderRequest.getItemName() + " " +orderRequest.getStatus();
+//		
+//		kafkaService.sendMessage("order-confirmed", null, value);
 
 	}
 
